@@ -1577,3 +1577,2491 @@ AssetImportParameters requested are different than current active one (requested
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 11749.296987 seconds.
+  path: Assets/Scripts/BlueFire.asset
+  artifactKey: Guid(613fec63b9e45456aa7df5bd37d767c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BlueFire.asset using Guid(613fec63b9e45456aa7df5bd37d767c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '469b37f9e9d28a34ec47f0d702936c7f') in 0.126957 seconds 
+  Import took 0.162195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.694365 seconds.
+  path: Assets/Scenes/SampleDungeon.unity
+  artifactKey: Guid(dc485f7f30e8947d58434618b7b7bbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleDungeon.unity using Guid(dc485f7f30e8947d58434618b7b7bbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c443752777d1be9bfc445205a3e8756') in 0.005511 seconds 
+  Import took 0.010956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 185.031841 seconds.
+  path: Assets/bannerGreen.obj
+  artifactKey: Guid(4978f4c3185b54be3b613325ee88e290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bannerGreen.obj using Guid(4978f4c3185b54be3b613325ee88e290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f80b724856d69de096ab8a2178410a4') in 5.336675 seconds 
+  Import took 5.342705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/blade.obj
+  artifactKey: Guid(9d4ef39efd7c646fa88ad318cf72ff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/blade.obj using Guid(9d4ef39efd7c646fa88ad318cf72ff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b049e8add2507458c48f75e412efa11f') in 0.028248 seconds 
+  Import took 0.032225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/rockSmall.obj
+  artifactKey: Guid(075572a04d2d74ef58ca0570537cac10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/rockSmall.obj using Guid(075572a04d2d74ef58ca0570537cac10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30cbd8e657c0adcecab386cbeb0d40ed') in 0.025700 seconds 
+  Import took 0.029220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/roofHighCornerInner.obj
+  artifactKey: Guid(4300cc6fffcfd420c864a306988883d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/roofHighCornerInner.obj using Guid(4300cc6fffcfd420c864a306988883d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8d08bf8ab2b8122cabbbd419a903c68') in 0.037279 seconds 
+  Import took 0.040882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/fountainEdge.obj
+  artifactKey: Guid(96596c6e70cd84587b1d33178ef4cf9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fountainEdge.obj using Guid(96596c6e70cd84587b1d33178ef4cf9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4560b7b62da669a61f54fc95344e2ca8') in 0.049527 seconds 
+  Import took 0.054238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/roofHighPoint.obj
+  artifactKey: Guid(62d33589f550a4d6a9cd3a506c8262fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/roofHighPoint.obj using Guid(62d33589f550a4d6a9cd3a506c8262fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d4d430d8772f878dac0eea9e5894e88') in 0.063980 seconds 
+  Import took 0.071775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/roadCornerInner.obj
+  artifactKey: Guid(811b17442d20f4639910fad382416c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/roadCornerInner.obj using Guid(811b17442d20f4639910fad382416c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '306acffb353e1a437f881532953210fa') in 0.062727 seconds 
+  Import took 0.067661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/roofLeft.obj
+  artifactKey: Guid(36be7b935c23945f6b4bdc39d1eee890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/roofLeft.obj using Guid(36be7b935c23945f6b4bdc39d1eee890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3367b4480aed2741e50a11666e51c705') in 0.046643 seconds 
+  Import took 0.053370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000711 seconds.
+  path: Assets/stairsStone.obj
+  artifactKey: Guid(b5fa02c1b3271417da483108da12d17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairsStone.obj using Guid(b5fa02c1b3271417da483108da12d17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7985ff227650f6424cf9a7cc931a857a') in 0.055306 seconds 
+  Import took 0.063762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/fenceGate.obj
+  artifactKey: Guid(9506f50a5b79b4f7991f238c5be4c2f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fenceGate.obj using Guid(9506f50a5b79b4f7991f238c5be4c2f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6525be18431891e7f61f50efc092dca6') in 0.071284 seconds 
+  Import took 0.075735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/stairsStoneCorner.obj
+  artifactKey: Guid(b5195b4486c284ec6a4d93dc5322f906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairsStoneCorner.obj using Guid(b5195b4486c284ec6a4d93dc5322f906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66d2b8dc80c99773d296c0ee7139e82e') in 0.052664 seconds 
+  Import took 0.061375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/planks.obj
+  artifactKey: Guid(be61b3195fd8243fcace5ed7a66ea01f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/planks.obj using Guid(be61b3195fd8243fcace5ed7a66ea01f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0788cbcc3193a5e4ea538ee28e72c2d0') in 0.059250 seconds 
+  Import took 0.064252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/fountainCenter.obj
+  artifactKey: Guid(68bedfeed49ca45d3b5328a32b171f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fountainCenter.obj using Guid(68bedfeed49ca45d3b5328a32b171f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '824e3daf1321fda0f876e1cf8aad779c') in 0.054244 seconds 
+  Import took 0.058812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/fountainSquareDetail.obj
+  artifactKey: Guid(fdc7cdb304de34b92beb3f704380bfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fountainSquareDetail.obj using Guid(fdc7cdb304de34b92beb3f704380bfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '341ffec2d1695c5c60459abfa423d327') in 0.050312 seconds 
+  Import took 0.059093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/fence.obj
+  artifactKey: Guid(b45459e90f2e94a10995121caefd25c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fence.obj using Guid(b45459e90f2e94a10995121caefd25c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbf734d745ee9f9ed6e2438d1169eb8f') in 0.044917 seconds 
+  Import took 0.050518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000550 seconds.
+  path: Assets/roof.obj
+  artifactKey: Guid(fe01a2e1dc9494874a3135c0ecf0b324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/roof.obj using Guid(fe01a2e1dc9494874a3135c0ecf0b324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8df9a93d6c6f4012f320f3c2c32d9701') in 0.058442 seconds 
+  Import took 0.065615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/pillarStone.obj
+  artifactKey: Guid(97095206819d94bbc8ae9b4e64f3e329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pillarStone.obj using Guid(97095206819d94bbc8ae9b4e64f3e329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca0457c49435b086416fa53c51af9b65') in 0.051686 seconds 
+  Import took 0.058149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000709 seconds.
+  path: Assets/fountainCornerInnerSquare.obj
+  artifactKey: Guid(7af382b4d3feb4f95b3cb03a2fe751de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fountainCornerInnerSquare.obj using Guid(7af382b4d3feb4f95b3cb03a2fe751de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3787dd22d68e347879585cbedd022168') in 0.049455 seconds 
+  Import took 0.058218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/roofCorner.obj
+  artifactKey: Guid(752c9a1cd8e344793b2bb1c41413f6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/roofCorner.obj using Guid(752c9a1cd8e344793b2bb1c41413f6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e8128bb83e6cad714a8b48fc9cd4b2a') in 0.048936 seconds 
+  Import took 0.056320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000820 seconds.
+  path: Assets/roadEdge.obj
+  artifactKey: Guid(d0fd1c4e5d0d44a179675a10bfedcd0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/roadEdge.obj using Guid(d0fd1c4e5d0d44a179675a10bfedcd0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b672c7ac1b63b0bcddb3d9f3b87f695a') in 0.048843 seconds 
+  Import took 0.058278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/roofHigh.obj
+  artifactKey: Guid(c42068cf33d784ee0ab61c7ad6854d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/roofHigh.obj using Guid(c42068cf33d784ee0ab61c7ad6854d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88ef0226c630f522ddde362681d7f8dc') in 0.050558 seconds 
+  Import took 0.061157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000887 seconds.
+  path: Assets/hedge.obj
+  artifactKey: Guid(a31586c3b1c0242dda75318f4359912c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hedge.obj using Guid(a31586c3b1c0242dda75318f4359912c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dc1a932bd06596bb0878921b0d35501') in 0.057262 seconds 
+  Import took 0.063247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000478 seconds.
+  path: Assets/lantern.obj
+  artifactKey: Guid(a06af2116e4f8473596874c858b6cf1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/lantern.obj using Guid(a06af2116e4f8473596874c858b6cf1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeb506fa2f1756c975682268675a3ccd') in 0.052304 seconds 
+  Import took 0.062042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/roofHighGableEnd.obj
+  artifactKey: Guid(4d359fa4640894702b93535a31ac917d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/roofHighGableEnd.obj using Guid(4d359fa4640894702b93535a31ac917d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf398ab727ae35f60866be80d6dd10c') in 0.059864 seconds 
+  Import took 0.066699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/roofGableDetail.obj
+  artifactKey: Guid(2d3e130d8b4b14e9cab87bdbdcda8c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/roofGableDetail.obj using Guid(2d3e130d8b4b14e9cab87bdbdcda8c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37c0093b8872f66088a22c05871f9257') in 0.062208 seconds 
+  Import took 0.066744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/fountainRound.obj
+  artifactKey: Guid(71dcf2aaacc81458d9b7022c1d201d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fountainRound.obj using Guid(71dcf2aaacc81458d9b7022c1d201d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf50217790bebfc3546458b9e5afb140') in 0.056884 seconds 
+  Import took 0.061196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/overhang.obj
+  artifactKey: Guid(8cfcca66c135a4763b93857d664b9588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/overhang.obj using Guid(8cfcca66c135a4763b93857d664b9588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '756793ed3288d3820225f1b5ff2bf091') in 0.045081 seconds 
+  Import took 0.051884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000779 seconds.
+  path: Assets/roofHighGable.obj
+  artifactKey: Guid(d9380a655e9be4700801e8954225d5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/roofHighGable.obj using Guid(d9380a655e9be4700801e8954225d5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '066aa97a732d7725e20e2fb2523fcd54') in 0.044580 seconds 
+  Import took 0.052157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000494 seconds.
+  path: Assets/chimney.obj
+  artifactKey: Guid(110245d989f104c559de49d257faf683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/chimney.obj using Guid(110245d989f104c559de49d257faf683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58d23b51e0b5e362c2f242db6e74e690') in 0.058065 seconds 
+  Import took 0.068653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001091 seconds.
+  path: Assets/chimneyTop.obj
+  artifactKey: Guid(13649197e8c7d45f08fd142d51014e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/chimneyTop.obj using Guid(13649197e8c7d45f08fd142d51014e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec26a1e529b9d07fdbf8ea1c810bf5c9') in 0.054532 seconds 
+  Import took 0.062365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/fountainRoundDetail.obj
+  artifactKey: Guid(f5683d275a63a47a9b404f4d189b1f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fountainRoundDetail.obj using Guid(f5683d275a63a47a9b404f4d189b1f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2fd448eb9adf5610bdf012e0bfa2724') in 0.050359 seconds 
+  Import took 0.056900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/roofHighFlat.obj
+  artifactKey: Guid(1ae1799c9d1384a33942c52958633234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/roofHighFlat.obj using Guid(1ae1799c9d1384a33942c52958633234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '889a175dfb6de693c36908886af0f94f') in 0.053798 seconds 
+  Import took 0.059306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/hedgeGate.obj
+  artifactKey: Guid(c38f67e37b3274141b2b93d2f0e049e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hedgeGate.obj using Guid(c38f67e37b3274141b2b93d2f0e049e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0558b2a0eccfb45015de4bb185b62a83') in 0.061041 seconds 
+  Import took 0.069097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/roofHighCornerRound.obj
+  artifactKey: Guid(d09d70f5f29684cbb836c47f60bf65d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/roofHighCornerRound.obj using Guid(d09d70f5f29684cbb836c47f60bf65d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80a531f0e9c2701d870dc45649e3df24') in 0.058746 seconds 
+  Import took 0.063165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/roofHighLeft.obj
+  artifactKey: Guid(493bff60abe8a47608f9de796e19f1f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/roofHighLeft.obj using Guid(493bff60abe8a47608f9de796e19f1f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bf10561dd088ee1f5ff89c1e3924eec') in 0.049289 seconds 
+  Import took 0.057513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/cart.obj
+  artifactKey: Guid(fe075d84aba2e4e94a7cebc2a824509f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cart.obj using Guid(fe075d84aba2e4e94a7cebc2a824509f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1f279a9f7ef875a54432ccad8adf29b') in 0.052442 seconds 
+  Import took 0.059281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/fountainCornerInner.obj
+  artifactKey: Guid(a2b069c8254264855938bd85c9e6ae12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fountainCornerInner.obj using Guid(a2b069c8254264855938bd85c9e6ae12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c953375e8d6ea42a6f20f6825af16138') in 0.060271 seconds 
+  Import took 0.069029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001164 seconds.
+  path: Assets/bannerRed.obj
+  artifactKey: Guid(80a56403ec02145f38766ecc3aec4b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bannerRed.obj using Guid(80a56403ec02145f38766ecc3aec4b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '614566193c82e504d5e7d7299f7d20fc') in 0.058071 seconds 
+  Import took 0.063906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/roofGable.obj
+  artifactKey: Guid(4a9e373fba5424d6d9f562e39e6cbed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/roofGable.obj using Guid(4a9e373fba5424d6d9f562e39e6cbed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88fe43a528d18dbcef30c0ced048c550') in 0.055687 seconds 
+  Import took 0.060031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/rockLarge.obj
+  artifactKey: Guid(f7d596c3539d04e05a934e1bdeb785a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/rockLarge.obj using Guid(f7d596c3539d04e05a934e1bdeb785a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae5c64a26eed0d24a36b357ad639d805') in 0.046199 seconds 
+  Import took 0.051303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/roofHighGableTop.obj
+  artifactKey: Guid(5576dba25bf1e43a2b106b2a580429f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/roofHighGableTop.obj using Guid(5576dba25bf1e43a2b106b2a580429f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f28ab7e4ec26f8d33acc591d5269405') in 0.048584 seconds 
+  Import took 0.057695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/roofGableTop.obj
+  artifactKey: Guid(0bfd0c16402be49ad842a8e0ebf9acbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/roofGableTop.obj using Guid(0bfd0c16402be49ad842a8e0ebf9acbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '293538e326c95179482ce4c2738a55b3') in 0.057017 seconds 
+  Import took 0.067527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/roofGableEnd.obj
+  artifactKey: Guid(fccb09d67bd68425faa9a6ae2e0c59de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/roofGableEnd.obj using Guid(fccb09d67bd68425faa9a6ae2e0c59de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f2a90154390b88168922f64f626c76f') in 0.043919 seconds 
+  Import took 0.050186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000397 seconds.
+  path: Assets/roadEdgeSlope.obj
+  artifactKey: Guid(50973225f361e4d108585a931bcbb86f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/roadEdgeSlope.obj using Guid(50973225f361e4d108585a931bcbb86f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55ec9a17890ccd60086b406b0c3fe12d') in 0.049124 seconds 
+  Import took 0.056440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/roofHighRight.obj
+  artifactKey: Guid(10918f72ed84a49a08c411c36fab54cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/roofHighRight.obj using Guid(10918f72ed84a49a08c411c36fab54cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ded37c2ffa6a706cfbb676136c1cf44') in 0.063934 seconds 
+  Import took 0.069390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/roofHighCorner.obj
+  artifactKey: Guid(16abe195ff0604075811376b37a28d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/roofHighCorner.obj using Guid(16abe195ff0604075811376b37a28d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21660b2d7abdc19ea22d64cd5d12762b') in 0.033694 seconds 
+  Import took 0.044458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/roofPoint.obj
+  artifactKey: Guid(34b4c9994d35e42f6b8d087c5e1cee1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/roofPoint.obj using Guid(34b4c9994d35e42f6b8d087c5e1cee1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b3374d4deb82a94731b82f5dabcf623') in 0.049547 seconds 
+  Import took 0.060182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/poles.obj
+  artifactKey: Guid(4098d8def436a48ad84120303eefcb8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/poles.obj using Guid(4098d8def436a48ad84120303eefcb8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49199ac8b4dfb8d837bcbc1cc42f63a4') in 0.045666 seconds 
+  Import took 0.055064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/cartHigh.obj
+  artifactKey: Guid(3d8baed9ee4884d24bb0d5c7bdc726c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cartHigh.obj using Guid(3d8baed9ee4884d24bb0d5c7bdc726c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '946b0cedf35e2c3e82a88599874a77a5') in 0.104386 seconds 
+  Import took 0.111433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/fenceBroken.obj
+  artifactKey: Guid(2ea0e75a4e50a452ab2ff397cc805895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fenceBroken.obj using Guid(2ea0e75a4e50a452ab2ff397cc805895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '124f6f45e94f1b803231edf2f0ee512c') in 0.060861 seconds 
+  Import took 0.066264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/chimneyBase.obj
+  artifactKey: Guid(e5fff685d3e9f4bcfa83c146a06a5e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/chimneyBase.obj using Guid(e5fff685d3e9f4bcfa83c146a06a5e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a1d58a56a8f1e6bba9f0844ef8818e6') in 0.034190 seconds 
+  Import took 0.042008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/roadCorner.obj
+  artifactKey: Guid(4211009e54fee4af69a1bd895eb65361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/roadCorner.obj using Guid(4211009e54fee4af69a1bd895eb65361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b297a287369ea2cbee4774317e7500b9') in 0.051857 seconds 
+  Import took 0.061920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/roofCornerRound.obj
+  artifactKey: Guid(8279b7f8cf45e40f3b3f20e5fd754579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/roofCornerRound.obj using Guid(8279b7f8cf45e40f3b3f20e5fd754579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dc60f0aa134bbaa94381af12395b238') in 0.063735 seconds 
+  Import took 0.071431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/roofHighGableDetail.obj
+  artifactKey: Guid(faaa026a8b6234241b2d8da0c07bdb53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/roofHighGableDetail.obj using Guid(faaa026a8b6234241b2d8da0c07bdb53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '553a65d50324e08dcbc4542926a35b14') in 0.058173 seconds 
+  Import took 0.063766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/roofWindow.obj
+  artifactKey: Guid(9d33fffbd3efa4d449691fa23e3c3c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/roofWindow.obj using Guid(9d33fffbd3efa4d449691fa23e3c3c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfeb695fe73c8e919408d80d2bc17741') in 0.046932 seconds 
+  Import took 0.053466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000777 seconds.
+  path: Assets/fountainSquare.obj
+  artifactKey: Guid(33a6c9aca3ab44eebab928fcac81605f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fountainSquare.obj using Guid(33a6c9aca3ab44eebab928fcac81605f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5645a308a8bc610ef8771e8795992685') in 0.053792 seconds 
+  Import took 0.058821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/rockWide.obj
+  artifactKey: Guid(487f6f87236f6454a80283cd18d94644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/rockWide.obj using Guid(487f6f87236f6454a80283cd18d94644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d0c836d58152442fed53361261ccace') in 0.056788 seconds 
+  Import took 0.064709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000799 seconds.
+  path: Assets/roadCurb.obj
+  artifactKey: Guid(5aa09a5452d284523af9dfab5f364fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/roadCurb.obj using Guid(5aa09a5452d284523af9dfab5f364fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '117c2fc577913f295e2f83f414b20614') in 0.057426 seconds 
+  Import took 0.064896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/planksOpening.obj
+  artifactKey: Guid(941f0cf3837194c10be7ed1df9e2bcf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/planksOpening.obj using Guid(941f0cf3837194c10be7ed1df9e2bcf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf2411cc9ebf1ba6a23d2d766eb25458') in 0.047428 seconds 
+  Import took 0.054626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001174 seconds.
+  path: Assets/fenceCurved.obj
+  artifactKey: Guid(b00bc89a80c5e46a5897bd4253b4caa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fenceCurved.obj using Guid(b00bc89a80c5e46a5897bd4253b4caa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01f618696c9b179f273c8a56aca30b1c') in 0.044504 seconds 
+  Import took 0.052301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/fountainCorner.obj
+  artifactKey: Guid(b31994df91e7c48588effad2a403e000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fountainCorner.obj using Guid(b31994df91e7c48588effad2a403e000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c284c0be2dfbe98943fb08dd69e147ee') in 0.060439 seconds 
+  Import took 0.066860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000702 seconds.
+  path: Assets/roofFlat.obj
+  artifactKey: Guid(ded7d1d6639574f90b63ef6469474a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/roofFlat.obj using Guid(ded7d1d6639574f90b63ef6469474a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5243dffd045899b91ce4d276f42d83b') in 0.050735 seconds 
+  Import took 0.057737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000560 seconds.
+  path: Assets/fountainCorner.obj
+  artifactKey: Guid(b31994df91e7c48588effad2a403e000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fountainCorner.obj using Guid(b31994df91e7c48588effad2a403e000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c284c0be2dfbe98943fb08dd69e147ee') in 0.033294 seconds 
+  Import took 0.045376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000568 seconds.
+  path: Assets/pillarWood.obj
+  artifactKey: Guid(94e55fac80cff483d849e4c1d15ffad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pillarWood.obj using Guid(94e55fac80cff483d849e4c1d15ffad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd53b2417b4c405daa24b6e1575ade56e') in 0.042467 seconds 
+  Import took 0.052402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/polesHorizontal.obj
+  artifactKey: Guid(00223dc246afa46f3a431d99a7ced2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polesHorizontal.obj using Guid(00223dc246afa46f3a431d99a7ced2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c36bd12899217a0bdae20e256bc068d0') in 0.058199 seconds 
+  Import took 0.067261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000951 seconds.
+  path: Assets/roofRight.obj
+  artifactKey: Guid(1bf3c28a3986c49f794976d39e0fb0e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/roofRight.obj using Guid(1bf3c28a3986c49f794976d39e0fb0e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdfba8ef1218cddbc360388ca316ea0a') in 0.060175 seconds 
+  Import took 0.065799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/fountainCurved.obj
+  artifactKey: Guid(f631d93eddc95494cb13489af8ce46ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fountainCurved.obj using Guid(f631d93eddc95494cb13489af8ce46ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87a66291f60f58f64d56939ce2595ea2') in 0.029551 seconds 
+  Import took 0.034143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046763 seconds.
+  path: Assets/Fantasy Pack
+  artifactKey: Guid(6e87fc50dfbbb463785135299aad6f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack using Guid(6e87fc50dfbbb463785135299aad6f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a344c5447fffa9e5af4bd70e18b2429e') in 0.004315 seconds 
+  Import took 0.010222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018884 seconds.
+  path: Assets/hedgeCurved.obj
+  artifactKey: Guid(41eaa9133b68c459ebfba12e6098bcac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hedgeCurved.obj using Guid(41eaa9133b68c459ebfba12e6098bcac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20eaf17a0bd94a4c4bac1f7ba2807efc') in 0.051536 seconds 
+  Import took 0.059060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/roofCornerInner.obj
+  artifactKey: Guid(c915b5f0e0fbf41ab9266b86e48b5c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/roofCornerInner.obj using Guid(c915b5f0e0fbf41ab9266b86e48b5c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7868f57061e1d3b11b94c4c9834cc1cb') in 0.053667 seconds 
+  Import took 0.058700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/planksHalf.obj
+  artifactKey: Guid(ddb9fd65c9c2a4cc8bdb67ca309ac2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/planksHalf.obj using Guid(ddb9fd65c9c2a4cc8bdb67ca309ac2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19b35b6489488e7c198a4d6f4e658958') in 0.065787 seconds 
+  Import took 0.070086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/roofHighWindow.obj
+  artifactKey: Guid(f91924fbc66594b799d84a18c8b97f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/roofHighWindow.obj using Guid(f91924fbc66594b799d84a18c8b97f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b7c4b29249ab971d39d8ca6f03afa52') in 0.044374 seconds 
+  Import took 0.051436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000571 seconds.
+  path: Assets/road.obj
+  artifactKey: Guid(90e0737b12d8f4ae7a4fb4db737d16ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/road.obj using Guid(90e0737b12d8f4ae7a4fb4db737d16ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8690a61283ec330bd4f25e95f051ecf9') in 0.057112 seconds 
+  Import took 0.064312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/roadBend.obj
+  artifactKey: Guid(0cd78e22bd4e845f49729610e26d1b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/roadBend.obj using Guid(0cd78e22bd4e845f49729610e26d1b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '908017c81bc0561a8f132b4551564b16') in 0.036298 seconds 
+  Import took 0.045226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/roadSlope.obj
+  artifactKey: Guid(feae04df26ae94b54904bebfcae0a7b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/roadSlope.obj using Guid(feae04df26ae94b54904bebfcae0a7b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '628a9bfd2d6ccf576f0e817cf2e83711') in 0.050432 seconds 
+  Import took 0.058417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.155131 seconds.
+  path: Assets/stairsStoneHandrail.obj
+  artifactKey: Guid(1a3652f706637423cbd78479b308d470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairsStoneHandrail.obj using Guid(1a3652f706637423cbd78479b308d470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '670089488262f2fa096724965c76c7f0') in 0.078260 seconds 
+  Import took 0.125820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/stall.obj
+  artifactKey: Guid(51935a7dc72cc4b8882360dbdd77000a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stall.obj using Guid(51935a7dc72cc4b8882360dbdd77000a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '938f310ba361591e9efeea0c5bdc6fed') in 0.027467 seconds 
+  Import took 0.032435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/stairsWood.obj
+  artifactKey: Guid(0c5913358cb0a4d438a8040da6627160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairsWood.obj using Guid(0c5913358cb0a4d438a8040da6627160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42a78484929f90acc3b7a8347efdf98f') in 0.057633 seconds 
+  Import took 0.062201 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/stairsWoodHandrail.obj
+  artifactKey: Guid(99815d9463d6f4e8eb2aa513d791e360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairsWoodHandrail.obj using Guid(99815d9463d6f4e8eb2aa513d791e360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3845d05ac3f641422e6d1c6c91219f9c') in 0.052850 seconds 
+  Import took 0.056430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/stallGreen.obj
+  artifactKey: Guid(e3b82bc9290d9468ebcbe2d2e173eecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stallGreen.obj using Guid(e3b82bc9290d9468ebcbe2d2e173eecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92a50dbd3ed5acde8ad223070868bb01') in 0.025833 seconds 
+  Import took 0.029859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/stallBench.obj
+  artifactKey: Guid(a973dba71f735490c81c3c302657b75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stallBench.obj using Guid(a973dba71f735490c81c3c302657b75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b0d854bac82eb05954f006ac89874b5') in 0.028727 seconds 
+  Import took 0.034499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/stairsStoneRound.obj
+  artifactKey: Guid(655ff7912a2a44be393c8c922dc9fe73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stairsStoneRound.obj using Guid(655ff7912a2a44be393c8c922dc9fe73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5153eab03b231b0b98c154f57a6ac8a5') in 0.032426 seconds 
+  Import took 0.036647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.816367 seconds.
+  path: Assets/stallRed.obj
+  artifactKey: Guid(d34783d4ddf0d44eeb1faf79ce152bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stallRed.obj using Guid(d34783d4ddf0d44eeb1faf79ce152bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98d95d147349b1307c2e4c8645995269') in 0.033186 seconds 
+  Import took 0.039531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/wallWood.obj
+  artifactKey: Guid(5baaf349ffe8846a8b861dd34559d129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wallWood.obj using Guid(5baaf349ffe8846a8b861dd34559d129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c5ab1f7ad386a5809aaa5b397e5626c') in 0.032761 seconds 
+  Import took 0.038470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/treeHigh.obj
+  artifactKey: Guid(9da39614d43df4c199f8b8d0b27b0955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/treeHigh.obj using Guid(9da39614d43df4c199f8b8d0b27b0955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bba2d7294139439d298c74a3ebb8e2af') in 0.070355 seconds 
+  Import took 0.080069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/wallDetailHorizontal.obj
+  artifactKey: Guid(9714514c72da64a939d84957eb3d92fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wallDetailHorizontal.obj using Guid(9714514c72da64a939d84957eb3d92fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b1beef2ee24350d5f544a1e3ebc4858') in 0.058749 seconds 
+  Import took 0.064399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/wallDoorwayBase.obj
+  artifactKey: Guid(126ab342ae52e4f038b225da76baae3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wallDoorwayBase.obj using Guid(126ab342ae52e4f038b225da76baae3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a2527ab35c374b0c27a378ddfd2ca2a') in 0.044656 seconds 
+  Import took 0.051139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000898 seconds.
+  path: Assets/wallDetailCross.obj
+  artifactKey: Guid(99fe1cf9aae9e4658bf69f06d3258bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wallDetailCross.obj using Guid(99fe1cf9aae9e4658bf69f06d3258bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0acb05cc7e082cd667c762b3166718ff') in 0.039650 seconds 
+  Import took 0.048286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/wallArchTop.obj
+  artifactKey: Guid(040ecd6f81030467abd2cc04388987a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wallArchTop.obj using Guid(040ecd6f81030467abd2cc04388987a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '289f0a2070c4fb2b14a1db50b4d6e1ca') in 0.044265 seconds 
+  Import took 0.050758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/wallDoorwaySquare.obj
+  artifactKey: Guid(07c75d164496542c3aa0d41e23f72326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wallDoorwaySquare.obj using Guid(07c75d164496542c3aa0d41e23f72326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78174bd083bd17b22c5ee3e557803c86') in 0.064239 seconds 
+  Import took 0.071513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/wallWoodDiagonal.obj
+  artifactKey: Guid(116896a1699e042de8bd5c2eedbca559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wallWoodDiagonal.obj using Guid(116896a1699e042de8bd5c2eedbca559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '684a85534ad58b3b72eaf0c58897723b') in 0.051179 seconds 
+  Import took 0.058213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/wallWoodCorner.obj
+  artifactKey: Guid(b53869f918dbd4c06bdaa18d982e1eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wallWoodCorner.obj using Guid(b53869f918dbd4c06bdaa18d982e1eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a04654040123accf840ae5dbefb065b') in 0.052929 seconds 
+  Import took 0.058165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/wallWoodDoor.obj
+  artifactKey: Guid(125fb9fdf364e4caa83bfaee94d0682e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wallWoodDoor.obj using Guid(125fb9fdf364e4caa83bfaee94d0682e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f19a36d39c8fca8a90677173ae8c831') in 0.076818 seconds 
+  Import took 0.083503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/tree.obj
+  artifactKey: Guid(98f4187574cbc4e14a2cd9a47ee28239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tree.obj using Guid(98f4187574cbc4e14a2cd9a47ee28239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58c22a6caaa0612659af31dc8a45a284') in 0.048096 seconds 
+  Import took 0.057063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/wallCorner.obj
+  artifactKey: Guid(0175ecdc3f9de41dfb2e77829d6c31ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wallCorner.obj using Guid(0175ecdc3f9de41dfb2e77829d6c31ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e174d5d372af689d4893e521b0be7278') in 0.052952 seconds 
+  Import took 0.057915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/wallBroken.obj
+  artifactKey: Guid(0bcd5922f595d42999d309c9f9eee9a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wallBroken.obj using Guid(0bcd5922f595d42999d309c9f9eee9a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb4d48662e78b9db60f4f706eccbfe2e') in 0.056280 seconds 
+  Import took 0.062616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/wallCornerDiagonalHalf.obj
+  artifactKey: Guid(6bee6e97501c44cd4b1c4ae1d8b4b2b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wallCornerDiagonalHalf.obj using Guid(6bee6e97501c44cd4b1c4ae1d8b4b2b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '579af6ad379b986f2a2a7c6942c719ec') in 0.050970 seconds 
+  Import took 0.057108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000510 seconds.
+  path: Assets/wallWoodWindowShutters.obj
+  artifactKey: Guid(687b7405932124b49849b740715c52c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wallWoodWindowShutters.obj using Guid(687b7405932124b49849b740715c52c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd6cdee0d5628b996386b727cd4dfb46') in 0.031759 seconds 
+  Import took 0.040519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/wallWoodDoorwaySquareWideCurved.obj
+  artifactKey: Guid(2210cde79d3c74bec9103ca6e7aeb26e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wallWoodDoorwaySquareWideCurved.obj using Guid(2210cde79d3c74bec9103ca6e7aeb26e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd40bccf926b0f4a4fb2d92bb9e9716d1') in 0.043447 seconds 
+  Import took 0.052598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000458 seconds.
+  path: Assets/wallWoodWindowStone.obj
+  artifactKey: Guid(885b95bb9f2c74878a9f4ab918a3d536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wallWoodWindowStone.obj using Guid(885b95bb9f2c74878a9f4ab918a3d536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a47c06306621540bb35124468a7b738') in 0.049311 seconds 
+  Import took 0.055414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/wallDoorwaySquareWide.obj
+  artifactKey: Guid(b42e36db8b5b64f9aa816249f37ddb12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wallDoorwaySquareWide.obj using Guid(b42e36db8b5b64f9aa816249f37ddb12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '385b25ed8dddc283bc674b48bd0a6526') in 0.056446 seconds 
+  Import took 0.063092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/wallDiagonal.obj
+  artifactKey: Guid(9aa3800636b49464dbda92c89ba23a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wallDiagonal.obj using Guid(9aa3800636b49464dbda92c89ba23a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb091dce9606b2fa16e792eb23986276') in 0.051423 seconds 
+  Import took 0.060280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/wallWoodHalf.obj
+  artifactKey: Guid(eaa3d9695c60349318c2f8bb442d1d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wallWoodHalf.obj using Guid(eaa3d9695c60349318c2f8bb442d1d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d78120ae281f432428857c741f89cbb') in 0.029214 seconds 
+  Import took 0.034074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/wallWoodArchTopDetail.obj
+  artifactKey: Guid(e5bb449d63fa64507bc569ba722477ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wallWoodArchTopDetail.obj using Guid(e5bb449d63fa64507bc569ba722477ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4da3a75c86983ca419b967fc3a261084') in 0.099489 seconds 
+  Import took 0.107078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/wheel.obj
+  artifactKey: Guid(1a8008cf3e57243108c6e08885131251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wheel.obj using Guid(1a8008cf3e57243108c6e08885131251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef1f05c59a4dea675f9022ff2290cde3') in 0.048932 seconds 
+  Import took 0.056459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/wallWindowStone.obj
+  artifactKey: Guid(bc8f64468734441c194422367e2a08be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wallWindowStone.obj using Guid(bc8f64468734441c194422367e2a08be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0c7df6a4b1fc1ddf8a00c687158e535') in 0.059722 seconds 
+  Import took 0.064816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/wallDoor.obj
+  artifactKey: Guid(5ffed442ad3a74305beb9e62070f5229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wallDoor.obj using Guid(5ffed442ad3a74305beb9e62070f5229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8144d55505359dd725ebd774fdf67e6a') in 0.083095 seconds 
+  Import took 0.089113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/wall.obj
+  artifactKey: Guid(535f7f54aae9844febd51e9cf45fa131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wall.obj using Guid(535f7f54aae9844febd51e9cf45fa131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bf34ec23166227dd11e34095732aa2d') in 0.156488 seconds 
+  Import took 0.162093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/wallWoodRounded.obj
+  artifactKey: Guid(9279075257bb44aaf97bb29a93c5fbf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wallWoodRounded.obj using Guid(9279075257bb44aaf97bb29a93c5fbf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e201bf0d656dbfd038a91add7cd26a76') in 0.065915 seconds 
+  Import took 0.070757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/treeCrooked.obj
+  artifactKey: Guid(44feb4b8bafd7486db39bb704d28a14e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/treeCrooked.obj using Guid(44feb4b8bafd7486db39bb704d28a14e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e69ff7f445c03b9efbf2e424902b905f') in 0.045809 seconds 
+  Import took 0.050785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000662 seconds.
+  path: Assets/wallWoodDetailHorizontal.obj
+  artifactKey: Guid(33c0424bba3c24947a2f4dfc3e5b02d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wallWoodDetailHorizontal.obj using Guid(33c0424bba3c24947a2f4dfc3e5b02d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd42e6a2174acf25f7ce8994bb042da18') in 0.033033 seconds 
+  Import took 0.040224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/treeHighRound.obj
+  artifactKey: Guid(4a39081b71dd64da587ab809bf208ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/treeHighRound.obj using Guid(4a39081b71dd64da587ab809bf208ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c7b754e0d8fa17a9405e24d0468ca6f') in 0.045115 seconds 
+  Import took 0.051511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/wallWoodCornerDiagonalHalf.obj
+  artifactKey: Guid(6d8087cf8b12b4ed6b988f4b159cbb1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wallWoodCornerDiagonalHalf.obj using Guid(6d8087cf8b12b4ed6b988f4b159cbb1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '852b698df533cafcd27ebc2c65bd21a7') in 0.053917 seconds 
+  Import took 0.061832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000427 seconds.
+  path: Assets/wallBlock.obj
+  artifactKey: Guid(966a8571f83af4d1cbf4e9d4bd7b83f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wallBlock.obj using Guid(966a8571f83af4d1cbf4e9d4bd7b83f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da28e303b61583a1d1a44d9ae9448f70') in 0.055262 seconds 
+  Import took 0.063579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000751 seconds.
+  path: Assets/wallBlockHalf.obj
+  artifactKey: Guid(aecee4c752641428bbdf5f7390acceee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wallBlockHalf.obj using Guid(aecee4c752641428bbdf5f7390acceee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7323ae65fc5b66a5dfef344ea20a3e0') in 0.046250 seconds 
+  Import took 0.054820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000466 seconds.
+  path: Assets/wallWoodBlockHalf.obj
+  artifactKey: Guid(b353b1549d90349058efac9e464870c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wallWoodBlockHalf.obj using Guid(b353b1549d90349058efac9e464870c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eea672b123cb90febb5b54c860d714c7') in 0.047909 seconds 
+  Import took 0.053859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/wallWoodDoorwaySquareWide.obj
+  artifactKey: Guid(6a4e3ebb501614bc9b4729e3dc7dae4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wallWoodDoorwaySquareWide.obj using Guid(6a4e3ebb501614bc9b4729e3dc7dae4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5708aed28cbbc0141dfac8a8d84f292a') in 0.057476 seconds 
+  Import took 0.063149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/windmill.obj
+  artifactKey: Guid(1636c5754607a4246973352ca682bf72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/windmill.obj using Guid(1636c5754607a4246973352ca682bf72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef523b9dc7a9288cebca6dcf453f5232') in 0.060976 seconds 
+  Import took 0.066360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/watermill.obj
+  artifactKey: Guid(45b2feec9045f4894b6e50e5e090bbd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/watermill.obj using Guid(45b2feec9045f4894b6e50e5e090bbd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24d19bd0b980ea21d98983bd4adbc7eb') in 0.091402 seconds 
+  Import took 0.098870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000475 seconds.
+  path: Assets/wallArchTopDetail.obj
+  artifactKey: Guid(12343d0c332d6410db68b7a6f348530a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wallArchTopDetail.obj using Guid(12343d0c332d6410db68b7a6f348530a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23ce57f1dee5aece3312029fd1057dee') in 0.048556 seconds 
+  Import took 0.056349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/wallWoodDetailCross.obj
+  artifactKey: Guid(26ce7db48925643b18b4ca69c7cede91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wallWoodDetailCross.obj using Guid(26ce7db48925643b18b4ca69c7cede91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf8323df270934907421aa9732d94221') in 0.040615 seconds 
+  Import took 0.046605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000746 seconds.
+  path: Assets/treeHighCrooked.obj
+  artifactKey: Guid(aaff2067b2d3049eebc9ab78d04317e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/treeHighCrooked.obj using Guid(aaff2067b2d3049eebc9ab78d04317e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc8157fa45ae06ba4798b7d5dbeacfdb') in 0.045414 seconds 
+  Import took 0.051242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/wallHalf.obj
+  artifactKey: Guid(95fd54084cc964167b3e7d2d55765f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wallHalf.obj using Guid(95fd54084cc964167b3e7d2d55765f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c13761f599580b611ac4cb8f9ea4d546') in 0.051143 seconds 
+  Import took 0.059511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/wallCurved.obj
+  artifactKey: Guid(dde74f7bbdf2842e49ae11b7171b8a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wallCurved.obj using Guid(dde74f7bbdf2842e49ae11b7171b8a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d73ec9b80297aa3481488ba877653a') in 0.052904 seconds 
+  Import took 0.059718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/wallWoodDetailDiagonal.obj
+  artifactKey: Guid(2538d902d73e342dd8e214deb746c497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wallWoodDetailDiagonal.obj using Guid(2538d902d73e342dd8e214deb746c497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5034fa0d05e2d7b2c080d8e1d745d009') in 0.054297 seconds 
+  Import took 0.061535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/wallWoodCornerEdge.obj
+  artifactKey: Guid(2ccd52b83139449998f82337dfdfbcfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wallWoodCornerEdge.obj using Guid(2ccd52b83139449998f82337dfdfbcfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fbcda1cef8a94e7e78ec5f0709d5d80') in 0.027570 seconds 
+  Import took 0.031902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/wallWoodBlock.obj
+  artifactKey: Guid(15ecd0af7bc9445a59a557c38bdc9fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wallWoodBlock.obj using Guid(15ecd0af7bc9445a59a557c38bdc9fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de703bb5c7684f3d0529b8e81e4a55b5') in 0.055369 seconds 
+  Import took 0.059990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000431 seconds.
+  path: Assets/wallRounded.obj
+  artifactKey: Guid(679ed1e07bfc542aca4824092be134fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wallRounded.obj using Guid(679ed1e07bfc542aca4824092be134fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f0b381e25f549274ca446530919d40d') in 0.055069 seconds 
+  Import took 0.059727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/wallWindowShutters.obj
+  artifactKey: Guid(668f4baf416854e4bbf5981acea6ed1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wallWindowShutters.obj using Guid(668f4baf416854e4bbf5981acea6ed1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27173fe0e834f2f0c63d2b8c4e2d4d62') in 0.110183 seconds 
+  Import took 0.119733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/wallWoodSide.obj
+  artifactKey: Guid(944ccce2323b14bcc8c55486f9c547fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wallWoodSide.obj using Guid(944ccce2323b14bcc8c55486f9c547fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df8ad4d9946c1f76718abcef59d88d2f') in 0.031065 seconds 
+  Import took 0.039286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/wallDoorwayRound.obj
+  artifactKey: Guid(ebe95f85baefc4e2daf4ea5509d0bd9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wallDoorwayRound.obj using Guid(ebe95f85baefc4e2daf4ea5509d0bd9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e210e919d1c4c3010df8b7248b7fc25') in 0.044224 seconds 
+  Import took 0.050996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/wallSlope.obj
+  artifactKey: Guid(e87ae15f9e55e4a0ab24dfcfffd5c252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wallSlope.obj using Guid(e87ae15f9e55e4a0ab24dfcfffd5c252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e571e48851dec272ffe7f8a30fd3567c') in 0.049874 seconds 
+  Import took 0.055708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/wallWoodDoorwayBase.obj
+  artifactKey: Guid(d6fb362a4742741a6a822527a3cdb939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wallWoodDoorwayBase.obj using Guid(d6fb362a4742741a6a822527a3cdb939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '016de36e20132c45ee5dce649172c628') in 0.052876 seconds 
+  Import took 0.060773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/wallWoodWindowGlass.obj
+  artifactKey: Guid(efd7262f9cbb34271aea341b8a5ac310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wallWoodWindowGlass.obj using Guid(efd7262f9cbb34271aea341b8a5ac310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6710fc3e4f0347f679165c76f6226e41') in 0.046643 seconds 
+  Import took 0.054113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/wallWoodSlope.obj
+  artifactKey: Guid(12b6c0850b46340d59586f099ef0f38a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wallWoodSlope.obj using Guid(12b6c0850b46340d59586f099ef0f38a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f3cefe684a6d5cbe34d800e815c61f1') in 0.053624 seconds 
+  Import took 0.064942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/wallWoodCurved.obj
+  artifactKey: Guid(c3b75ee7067b241bf8b87ad99772b861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wallWoodCurved.obj using Guid(c3b75ee7067b241bf8b87ad99772b861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8450e94fc8c7aa0f1d39a08c06e9ae4c') in 0.049558 seconds 
+  Import took 0.055615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/wallWoodArch.obj
+  artifactKey: Guid(8f8244553e2bc4a6681840ee8c5ee573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wallWoodArch.obj using Guid(8f8244553e2bc4a6681840ee8c5ee573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9c22e685c01bbe25826cef47616ca71') in 0.034674 seconds 
+  Import took 0.045104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000638 seconds.
+  path: Assets/stallStool.obj
+  artifactKey: Guid(fdd782017771b41dcb40643e0fc4af72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stallStool.obj using Guid(fdd782017771b41dcb40643e0fc4af72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10180e3588742ba3c4de09c4c442a1ac') in 0.046987 seconds 
+  Import took 0.058473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/wallWoodDoorwaySquare.obj
+  artifactKey: Guid(2f08060039df64ff3a595c30067d8fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wallWoodDoorwaySquare.obj using Guid(2f08060039df64ff3a595c30067d8fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f352e2f6d21e4dfef1bb322ef1f3b20') in 0.047907 seconds 
+  Import took 0.058964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000483 seconds.
+  path: Assets/wallDoorwaySquareWideCurved.obj
+  artifactKey: Guid(a7b3cd3e9512e494da11fd3dc73709dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wallDoorwaySquareWideCurved.obj using Guid(a7b3cd3e9512e494da11fd3dc73709dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dafaa75fa13802a059a265376eb2dac') in 0.055217 seconds 
+  Import took 0.065114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000424 seconds.
+  path: Assets/wallArch.obj
+  artifactKey: Guid(28ed3ebc9890e4ee3b8dbceb74d5b54d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wallArch.obj using Guid(28ed3ebc9890e4ee3b8dbceb74d5b54d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de03f1f9a231f65e5833269a7fa1c2ec') in 0.046995 seconds 
+  Import took 0.057723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000705 seconds.
+  path: Assets/wallWoodBroken.obj
+  artifactKey: Guid(72b6d89cb3317471681d9756ca03c2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wallWoodBroken.obj using Guid(72b6d89cb3317471681d9756ca03c2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea2c0e1c00aa9dd30ff4684cb48c6ad0') in 0.047399 seconds 
+  Import took 0.057015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000525 seconds.
+  path: Assets/wallSide.obj
+  artifactKey: Guid(94aa1d05095bb4f53a9de09b86231b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wallSide.obj using Guid(94aa1d05095bb4f53a9de09b86231b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b435f05e697fed912e2a6e9e60293c62') in 0.047676 seconds 
+  Import took 0.054766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/wallCornerDiagonal.obj
+  artifactKey: Guid(64c16cf9292554c48848d1f731267368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wallCornerDiagonal.obj using Guid(64c16cf9292554c48848d1f731267368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deaa23ea9dfc80e597431488cdf2f278') in 0.051899 seconds 
+  Import took 0.058435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/wallWoodArchTop.obj
+  artifactKey: Guid(d5b35d79a98984b4785bfa224815358c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wallWoodArchTop.obj using Guid(d5b35d79a98984b4785bfa224815358c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a38e56e8f6ce651f94d4f103f13df63') in 0.053414 seconds 
+  Import took 0.060616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000463 seconds.
+  path: Assets/wallWoodWindowSmall.obj
+  artifactKey: Guid(435c5ce6ff1d046b7926d09919a16129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wallWoodWindowSmall.obj using Guid(435c5ce6ff1d046b7926d09919a16129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5e8009c8a3f608fb389a9efe41f63e9') in 0.050084 seconds 
+  Import took 0.059897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000546 seconds.
+  path: Assets/wallCornerEdge.obj
+  artifactKey: Guid(f31ecef559b76491c940fdf0e314fcfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wallCornerEdge.obj using Guid(f31ecef559b76491c940fdf0e314fcfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '689e5f59db4ad34a0bd79d25e9aa4f0c') in 0.056541 seconds 
+  Import took 0.061859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/wallWindowRound.obj
+  artifactKey: Guid(68f5b120c80b74613bce2d6732e66381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wallWindowRound.obj using Guid(68f5b120c80b74613bce2d6732e66381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd804df0ade76c1705f0a626db9bef337') in 0.059071 seconds 
+  Import took 0.066459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/wallWoodCornerDiagonal.obj
+  artifactKey: Guid(f125618a5f0034db0902df8ef9384ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wallWoodCornerDiagonal.obj using Guid(f125618a5f0034db0902df8ef9384ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22e1bceec78a0c85312c4ebd05f0be3c') in 0.055502 seconds 
+  Import took 0.064562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/wallWindowSmall.obj
+  artifactKey: Guid(1917ea09304444d049af1695918d607f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wallWindowSmall.obj using Guid(1917ea09304444d049af1695918d607f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90e528ffa0c191b91786fb0a07c28d3d') in 0.041162 seconds 
+  Import took 0.050465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/wallCornerDetail.obj
+  artifactKey: Guid(91efac0efe70a4276b35894f8c0eb72c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wallCornerDetail.obj using Guid(91efac0efe70a4276b35894f8c0eb72c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75e1842842ae1c41b50babee2a2b2754') in 0.038600 seconds 
+  Import took 0.047306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000393 seconds.
+  path: Assets/wallWoodDoorwayRound.obj
+  artifactKey: Guid(244477afb31034e249310f5cc5892d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wallWoodDoorwayRound.obj using Guid(244477afb31034e249310f5cc5892d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7677730df6a61b92e4d19b6bcada0943') in 0.047935 seconds 
+  Import took 0.058726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/wallDetailDiagonal.obj
+  artifactKey: Guid(074eab36c9d6c4eb3bc2233b7c44ee83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wallDetailDiagonal.obj using Guid(074eab36c9d6c4eb3bc2233b7c44ee83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ff24280b7d7cb693f5c5bf28e7aa493') in 0.046663 seconds 
+  Import took 0.057097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/wallWoodWindowRound.obj
+  artifactKey: Guid(23ab8168d5b0a4c1f85344df3fac23be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wallWoodWindowRound.obj using Guid(23ab8168d5b0a4c1f85344df3fac23be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '897e45abc8ef6c7ed790a59bba13e874') in 0.049531 seconds 
+  Import took 0.058453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000539 seconds.
+  path: Assets/wallWindowGlass.obj
+  artifactKey: Guid(75e3dad1906804ab79bd4627a12b3e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wallWindowGlass.obj using Guid(75e3dad1906804ab79bd4627a12b3e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f67bde8eceb8047b0b113881849831d2') in 0.079418 seconds 
+  Import took 0.088548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 253.391255 seconds.
+  path: Assets/Fantasy Pack/roofRight.fbx
+  artifactKey: Guid(a8755a5138d08493c8cf8f01cf0ea586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/roofRight.fbx using Guid(a8755a5138d08493c8cf8f01cf0ea586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '751d115c1a0eb9d249b2c205b2ccd5e8') in 0.314748 seconds 
+  Import took 0.319780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Fantasy Pack/wallDetailCross.fbx
+  artifactKey: Guid(955daaa0f0fa04cf686892b94cfe0892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/wallDetailCross.fbx using Guid(955daaa0f0fa04cf686892b94cfe0892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b6874746d78d27239fe04f6705ca0d8') in 0.024079 seconds 
+  Import took 0.028135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/Fantasy Pack/wallDoorwayBase.fbx
+  artifactKey: Guid(266c8cf8e8c40499c8f9c4cd354be110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/wallDoorwayBase.fbx using Guid(266c8cf8e8c40499c8f9c4cd354be110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c02a1709524633a3f5f0e4b1aeb6931') in 0.066768 seconds 
+  Import took 0.071512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Fantasy Pack/stairsStoneHandrail.fbx
+  artifactKey: Guid(aab0ed7db852a40dfb73ecf0c2c68877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/stairsStoneHandrail.fbx using Guid(aab0ed7db852a40dfb73ecf0c2c68877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '774f951317f700826705da2f3fc4e637') in 0.068729 seconds 
+  Import took 0.076108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Fantasy Pack/wallCurved.fbx
+  artifactKey: Guid(8c489af77145a48c78506874975af595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/wallCurved.fbx using Guid(8c489af77145a48c78506874975af595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45a8ba5a5a8a7e7fc6ba235e35b0348c') in 0.053388 seconds 
+  Import took 0.057669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Fantasy Pack/wallWoodDiagonal.fbx
+  artifactKey: Guid(9c75aff92920642f696bba98c3e3f315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/wallWoodDiagonal.fbx using Guid(9c75aff92920642f696bba98c3e3f315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f19d0c10413713a73f672090be06f67') in 0.054459 seconds 
+  Import took 0.061896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Fantasy Pack/stairsStoneRound.fbx
+  artifactKey: Guid(7119eef3702624e2eac77b52887ff9b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/stairsStoneRound.fbx using Guid(7119eef3702624e2eac77b52887ff9b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e1b4789a22317381522c10071804ee1') in 0.042634 seconds 
+  Import took 0.050238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000571 seconds.
+  path: Assets/Fantasy Pack/stallGreen.fbx
+  artifactKey: Guid(cd0d3acc5d0554b078131ea19a5f4572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/stallGreen.fbx using Guid(cd0d3acc5d0554b078131ea19a5f4572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6cb8d84387af54af981a3eac404be86') in 0.037871 seconds 
+  Import took 0.045303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Fantasy Pack/wallDiagonal.fbx
+  artifactKey: Guid(159a09fc3d4824a66b00ccc308024b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/wallDiagonal.fbx using Guid(159a09fc3d4824a66b00ccc308024b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cb5b292ad4b312ef34ee0d0341fb924') in 0.056434 seconds 
+  Import took 0.061312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Fantasy Pack/wallWoodDetailDiagonal.fbx
+  artifactKey: Guid(3609d962cbc2642278ea3029e6c4c844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/wallWoodDetailDiagonal.fbx using Guid(3609d962cbc2642278ea3029e6c4c844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74fe045e4cf42d6aadda9b246b01fbd8') in 0.061772 seconds 
+  Import took 0.066114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Fantasy Pack/stairsStone.fbx
+  artifactKey: Guid(f685b92aabdee416c865fd0e3b2c79be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/stairsStone.fbx using Guid(f685b92aabdee416c865fd0e3b2c79be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10aa0391407b395f40df9842fdc2c33d') in 0.045864 seconds 
+  Import took 0.051335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Fantasy Pack/wallWood.fbx
+  artifactKey: Guid(669f056a365bd47aabe100719d8ec2ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/wallWood.fbx using Guid(669f056a365bd47aabe100719d8ec2ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67cb918ec35adb2e0d52dcec413d7890') in 0.029792 seconds 
+  Import took 0.037447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Fantasy Pack/wallWindowGlass.fbx
+  artifactKey: Guid(1cbf56455d1344c51b56bd9ab4d6ac50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/wallWindowGlass.fbx using Guid(1cbf56455d1344c51b56bd9ab4d6ac50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '361c34204340c43d1a5e79e6ce0b4a8b') in 0.056143 seconds 
+  Import took 0.063133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Fantasy Pack/wallDoorwaySquareWide.fbx
+  artifactKey: Guid(69ab4cd05440c46128183bcd525cc176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/wallDoorwaySquareWide.fbx using Guid(69ab4cd05440c46128183bcd525cc176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc6e97a2d1e3367905a74d015f5b3838') in 0.062499 seconds 
+  Import took 0.066788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Fantasy Pack/wallWoodBroken.fbx
+  artifactKey: Guid(d0277a066dfb44cfdb6518aa33b5ea27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/wallWoodBroken.fbx using Guid(d0277a066dfb44cfdb6518aa33b5ea27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae0d0c64fe9b9cf0cbfa5c63e1c8d6a2') in 0.040407 seconds 
+  Import took 0.048186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Fantasy Pack/treeHighRound.fbx
+  artifactKey: Guid(568921c2315104086950a6d7984f417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/treeHighRound.fbx using Guid(568921c2315104086950a6d7984f417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbb02d50628b0c11de191c2aa9841368') in 0.032287 seconds 
+  Import took 0.038109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Fantasy Pack/wallWoodDoorwayRound.fbx
+  artifactKey: Guid(cbcb99afd17204069a8b8c43580116b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/wallWoodDoorwayRound.fbx using Guid(cbcb99afd17204069a8b8c43580116b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5f767f4341c3c644b75cf65756b54a7') in 0.059707 seconds 
+  Import took 0.064932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Fantasy Pack/wallWindowShutters.fbx
+  artifactKey: Guid(2721e694b9fb64eb4ba75025fa5718a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/wallWindowShutters.fbx using Guid(2721e694b9fb64eb4ba75025fa5718a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4171868e697f2154836a2a6a13109a1') in 0.083288 seconds 
+  Import took 0.089034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000424 seconds.
+  path: Assets/Fantasy Pack/wallRounded.fbx
+  artifactKey: Guid(ffca271a7a2a9416fba3e3fb6d331fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/wallRounded.fbx using Guid(ffca271a7a2a9416fba3e3fb6d331fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffdb5c93adc81c989ffa0f766602b40e') in 0.048531 seconds 
+  Import took 0.053881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Fantasy Pack/wallWoodSide.fbx
+  artifactKey: Guid(6ed3a557f4fde4bcc96bf69c7e9fc0c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/wallWoodSide.fbx using Guid(6ed3a557f4fde4bcc96bf69c7e9fc0c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d0ef405cf3859cac48c855135feeea6') in 0.042918 seconds 
+  Import took 0.047465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Fantasy Pack/wallWoodCornerDiagonal.fbx
+  artifactKey: Guid(59f36e3dbc00b4a12aed53405e275be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/wallWoodCornerDiagonal.fbx using Guid(59f36e3dbc00b4a12aed53405e275be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '892640579b21c94bf660cfabe5005701') in 0.036207 seconds 
+  Import took 0.040368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Fantasy Pack/wallSlope.fbx
+  artifactKey: Guid(245071ba4c7904ace9b4d1e102ae6fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/wallSlope.fbx using Guid(245071ba4c7904ace9b4d1e102ae6fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a978af9732c5d957196978730cc1a14') in 0.057704 seconds 
+  Import took 0.062578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Fantasy Pack/wallWoodCurved.fbx
+  artifactKey: Guid(33306192e83cb49f389f6f45f40e7aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/wallWoodCurved.fbx using Guid(33306192e83cb49f389f6f45f40e7aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7b4bb00e6ceb96442934b0425be86f5') in 0.048326 seconds 
+  Import took 0.052992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000456 seconds.
+  path: Assets/Fantasy Pack/wallDoorwayRound.fbx
+  artifactKey: Guid(3ea98caa087194b21834af41213cae3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/wallDoorwayRound.fbx using Guid(3ea98caa087194b21834af41213cae3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '297e045eb4c348542b4cb13b7e6ef21f') in 0.038156 seconds 
+  Import took 0.046887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000527 seconds.
+  path: Assets/Fantasy Pack/wall.fbx
+  artifactKey: Guid(ff9f345296225455385beacace59e417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/wall.fbx using Guid(ff9f345296225455385beacace59e417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65fc91d6b33bd34d913441e7af491a66') in 0.050978 seconds 
+  Import took 0.056886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Fantasy Pack/wallWoodArchTop.fbx
+  artifactKey: Guid(85036a6139d4447c3bdf855d2af05b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/wallWoodArchTop.fbx using Guid(85036a6139d4447c3bdf855d2af05b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ca85eb925fe277e67594c170d96b12c') in 0.068968 seconds 
+  Import took 0.073467 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Fantasy Pack/wallWindowRound.fbx
+  artifactKey: Guid(667bff1a380c5489e86eeeae089c62ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/wallWindowRound.fbx using Guid(667bff1a380c5489e86eeeae089c62ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd09cf8185cc82013f7a1b0b94d84701d') in 0.042205 seconds 
+  Import took 0.050717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Fantasy Pack/wallWoodDetailHorizontal.fbx
+  artifactKey: Guid(41f4db96a8e9a40dfbe3ace19ee271ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/wallWoodDetailHorizontal.fbx using Guid(41f4db96a8e9a40dfbe3ace19ee271ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16bdd3c1785a704afb1d155387e9f544') in 0.042648 seconds 
+  Import took 0.047830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Fantasy Pack/wallWoodBlock.fbx
+  artifactKey: Guid(0b77f134507544bda9e028ed6592a0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/wallWoodBlock.fbx using Guid(0b77f134507544bda9e028ed6592a0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5d09ff15fda3c6b9b1f7ae2d05f6c13') in 0.053428 seconds 
+  Import took 0.059835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000756 seconds.
+  path: Assets/Fantasy Pack/wallDoor.fbx
+  artifactKey: Guid(efbe69a493a9349028c51a8f1c044b2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/wallDoor.fbx using Guid(efbe69a493a9349028c51a8f1c044b2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a111ddadb69608d293486cd498da7cf') in 0.073981 seconds 
+  Import took 0.082634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Fantasy Pack/wallCornerDiagonalHalf.fbx
+  artifactKey: Guid(67c3303ef220745249eee5505602d069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/wallCornerDiagonalHalf.fbx using Guid(67c3303ef220745249eee5505602d069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1af19ecfd478689ec4012addf16077ef') in 0.028490 seconds 
+  Import took 0.035039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001346 seconds.
+  path: Assets/Fantasy Pack/wallDoorwaySquareWideCurved.fbx
+  artifactKey: Guid(c865499c2b24942fda46c0361b367b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/wallDoorwaySquareWideCurved.fbx using Guid(c865499c2b24942fda46c0361b367b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95864a61daaa60d1de249533e2293c65') in 0.057175 seconds 
+  Import took 0.063452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Fantasy Pack/wallCornerDiagonal.fbx
+  artifactKey: Guid(c77c89a80673f4ae6961bbb90682ae9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/wallCornerDiagonal.fbx using Guid(c77c89a80673f4ae6961bbb90682ae9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f92fd2bf1f21ba490af2c6091d96b53') in 0.051300 seconds 
+  Import took 0.059274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000670 seconds.
+  path: Assets/Fantasy Pack/stall.fbx
+  artifactKey: Guid(d943c38dd1dc146ffbdd316807e693eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/stall.fbx using Guid(d943c38dd1dc146ffbdd316807e693eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99c637c699e58e0c5e608d96f62f4b6f') in 0.023137 seconds 
+  Import took 0.030781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Fantasy Pack/stallRed.fbx
+  artifactKey: Guid(8a8ba9307cf8749279e0e4aab40c37bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/stallRed.fbx using Guid(8a8ba9307cf8749279e0e4aab40c37bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '469fc95b2ff7811cbcdc5f2815b1d25a') in 0.058104 seconds 
+  Import took 0.062561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Fantasy Pack/stairsWoodHandrail.fbx
+  artifactKey: Guid(9a55a0c66c0b84793946fe4952ac1b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/stairsWoodHandrail.fbx using Guid(9a55a0c66c0b84793946fe4952ac1b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b425e79ae9c81e2466af1e3f9061c431') in 0.056626 seconds 
+  Import took 0.060646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Fantasy Pack/wallDetailDiagonal.fbx
+  artifactKey: Guid(51064d5324af846b48ce76806a771aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/wallDetailDiagonal.fbx using Guid(51064d5324af846b48ce76806a771aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c26ccb9cd997a2fe10ce7c6a083a082a') in 0.035748 seconds 
+  Import took 0.041058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Fantasy Pack/wallWindowSmall.fbx
+  artifactKey: Guid(6eafd4a5f453545baa8646f1b172deba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/wallWindowSmall.fbx using Guid(6eafd4a5f453545baa8646f1b172deba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b432b4ce0592df15ac449dfb440e1e54') in 0.050123 seconds 
+  Import took 0.058886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Fantasy Pack/wallWoodBlockHalf.fbx
+  artifactKey: Guid(f3f81b708c4e4466e98d8150c1aef39e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/wallWoodBlockHalf.fbx using Guid(f3f81b708c4e4466e98d8150c1aef39e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a535dc0179c11c916fde0c126085b3ee') in 0.036802 seconds 
+  Import took 0.043228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Fantasy Pack/treeCrooked.fbx
+  artifactKey: Guid(12bc69fb1f24144b7a52a2104f8e5eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/treeCrooked.fbx using Guid(12bc69fb1f24144b7a52a2104f8e5eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84ebe8444bbb55ea2a19ec5db89ff065') in 0.042995 seconds 
+  Import took 0.050452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Fantasy Pack/wallBlockHalf.fbx
+  artifactKey: Guid(9e129d090eaee481791ce873304e3c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/wallBlockHalf.fbx using Guid(9e129d090eaee481791ce873304e3c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ec240d644cdf9b774d5ba4d254ed3f6') in 0.066290 seconds 
+  Import took 0.070558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Fantasy Pack/stallBench.fbx
+  artifactKey: Guid(ac3a7be15762440778c92e0bca43a6d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/stallBench.fbx using Guid(ac3a7be15762440778c92e0bca43a6d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd16ef3c0d4a561585b6475295179aa72') in 0.029826 seconds 
+  Import took 0.035754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Fantasy Pack/stairsWood.fbx
+  artifactKey: Guid(9faacc644b64148838f575b2d70e3fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/stairsWood.fbx using Guid(9faacc644b64148838f575b2d70e3fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcbbeba25536180f3a54709bd4a0643e') in 0.037736 seconds 
+  Import took 0.045900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/Fantasy Pack/wallArch.fbx
+  artifactKey: Guid(36f6596e442a44d71b7d56aeef219d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/wallArch.fbx using Guid(36f6596e442a44d71b7d56aeef219d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e620ec95d0e197b6ee52af6677fe7810') in 0.037744 seconds 
+  Import took 0.043825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Fantasy Pack/wallDoorwaySquare.fbx
+  artifactKey: Guid(0556ec99a54534fdb8945518c420cdd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/wallDoorwaySquare.fbx using Guid(0556ec99a54534fdb8945518c420cdd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfaa2c7829dc6d80e87e55e66431246f') in 0.045961 seconds 
+  Import took 0.055515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001707 seconds.
+  path: Assets/Fantasy Pack/wallArchTopDetail.fbx
+  artifactKey: Guid(c180d345082194591b59ef6fd0e1b5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/wallArchTopDetail.fbx using Guid(c180d345082194591b59ef6fd0e1b5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '267670a34ae335944df4ca82c6832006') in 0.067193 seconds 
+  Import took 0.074751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Fantasy Pack/treeHigh.fbx
+  artifactKey: Guid(e5762120e533141069ba268cbe78b3a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/treeHigh.fbx using Guid(e5762120e533141069ba268cbe78b3a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ed6ef53825d5e0ec4aca89089d9dabf') in 0.062698 seconds 
+  Import took 0.067780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/Fantasy Pack/wallArchTop.fbx
+  artifactKey: Guid(5467ba6ed95cf45aab7a48dc8f2b44b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/wallArchTop.fbx using Guid(5467ba6ed95cf45aab7a48dc8f2b44b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8503c1ece3d93cebf3db184a6724be1') in 0.065024 seconds 
+  Import took 0.072145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001399 seconds.
+  path: Assets/Fantasy Pack/stairsStoneCorner.fbx
+  artifactKey: Guid(a27a07091bdd54915b402f4996be7225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/stairsStoneCorner.fbx using Guid(a27a07091bdd54915b402f4996be7225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8a6fd01794ed51bf82f4baee8742f42') in 0.055711 seconds 
+  Import took 0.068393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/Fantasy Pack/wallWoodArchTopDetail.fbx
+  artifactKey: Guid(a10c577dcd26748a49c2f2e0fbf1adf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/wallWoodArchTopDetail.fbx using Guid(a10c577dcd26748a49c2f2e0fbf1adf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd16361d947643df971c307ec782786d2') in 0.069051 seconds 
+  Import took 0.074103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Fantasy Pack/wallWoodDetailCross.fbx
+  artifactKey: Guid(eacd48089db8541668d55ee0e850a388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/wallWoodDetailCross.fbx using Guid(eacd48089db8541668d55ee0e850a388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '876fc2d03b21ad2a8bd9668c88a28128') in 0.063395 seconds 
+  Import took 0.068632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000466 seconds.
+  path: Assets/Fantasy Pack/wallWoodArch.fbx
+  artifactKey: Guid(8ee263149918948fdb47693d2a6b8ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/wallWoodArch.fbx using Guid(8ee263149918948fdb47693d2a6b8ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd33a09e0e1d7cac4c629c8360496c0f0') in 0.067225 seconds 
+  Import took 0.072160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Fantasy Pack/wallWoodCorner.fbx
+  artifactKey: Guid(9cfc574424e384253ae834286c010a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/wallWoodCorner.fbx using Guid(9cfc574424e384253ae834286c010a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93326991aa61d6e339e4c7fafdb29f60') in 0.060390 seconds 
+  Import took 0.065682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Fantasy Pack/wallWoodDoorwaySquare.fbx
+  artifactKey: Guid(ffb1912178c714cf195b88d0ff303fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/wallWoodDoorwaySquare.fbx using Guid(ffb1912178c714cf195b88d0ff303fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0db98f5be83d04e1ac894734f40dce80') in 0.056305 seconds 
+  Import took 0.062461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Fantasy Pack/wallSide.fbx
+  artifactKey: Guid(08f32430a8d4f4d34ad79da3b5484e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/wallSide.fbx using Guid(08f32430a8d4f4d34ad79da3b5484e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8427d2bd9c48171768819ee294996fe0') in 0.062866 seconds 
+  Import took 0.067636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Fantasy Pack/wallWoodSlope.fbx
+  artifactKey: Guid(7df542f58b5ae4747b9086cc73d5fdf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/wallWoodSlope.fbx using Guid(7df542f58b5ae4747b9086cc73d5fdf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3ee69cff41e02f3663e53f3e77e2199') in 0.047554 seconds 
+  Import took 0.052240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000399 seconds.
+  path: Assets/Fantasy Pack/wallWoodDoorwaySquareWideCurved.fbx
+  artifactKey: Guid(7dafe4c373b7742deb6b8994623342d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/wallWoodDoorwaySquareWideCurved.fbx using Guid(7dafe4c373b7742deb6b8994623342d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adf2439d9b38a5a1c99eeadd3d0f0109') in 0.073090 seconds 
+  Import took 0.078571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Fantasy Pack/wallWoodDoorwayBase.fbx
+  artifactKey: Guid(20b01f0eb0cad48bb88b0c8c58594904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/wallWoodDoorwayBase.fbx using Guid(20b01f0eb0cad48bb88b0c8c58594904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '786b3617ae21c46b870d4ad644c45cf4') in 0.060693 seconds 
+  Import took 0.068293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000830 seconds.
+  path: Assets/Fantasy Pack/wallCornerDetail.fbx
+  artifactKey: Guid(b4647f2f0256a48d198b4361c0075ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/wallCornerDetail.fbx using Guid(b4647f2f0256a48d198b4361c0075ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd204629bfa4d797901e74f5147248a0') in 0.045761 seconds 
+  Import took 0.051432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Fantasy Pack/wallWoodCornerDiagonalHalf.fbx
+  artifactKey: Guid(d7996686914f245d58e757f3899364ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/wallWoodCornerDiagonalHalf.fbx using Guid(d7996686914f245d58e757f3899364ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db82172933bb51bea5fa44b657fc0426') in 0.061371 seconds 
+  Import took 0.066543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/Fantasy Pack/wallCorner.fbx
+  artifactKey: Guid(52f891fce1f6041d183db4864e457ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/wallCorner.fbx using Guid(52f891fce1f6041d183db4864e457ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbff373843bba3906e4bc5ba066eb4a3') in 0.059472 seconds 
+  Import took 0.064591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Fantasy Pack/tree.fbx
+  artifactKey: Guid(812ec0dcae30f4b98b04fed88932e397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/tree.fbx using Guid(812ec0dcae30f4b98b04fed88932e397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0edf628aeb32c858084380f7c65f11ee') in 0.061004 seconds 
+  Import took 0.068930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Fantasy Pack/treeHighCrooked.fbx
+  artifactKey: Guid(8562989fe34e64ddda3cf47fe1275b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/treeHighCrooked.fbx using Guid(8562989fe34e64ddda3cf47fe1275b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98364a761d895bb227c38c1384127738') in 0.060320 seconds 
+  Import took 0.065635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/Fantasy Pack/stallStool.fbx
+  artifactKey: Guid(93a95761be1b54b61bef28b94932c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/stallStool.fbx using Guid(93a95761be1b54b61bef28b94932c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b821823ae156f33c7d625eaf2d89a2dc') in 0.050929 seconds 
+  Import took 0.058452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/Fantasy Pack/wallWoodDoor.fbx
+  artifactKey: Guid(277c8a47bfeb0479ab1b5df5d203513b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/wallWoodDoor.fbx using Guid(277c8a47bfeb0479ab1b5df5d203513b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '359ecc065640771381d24aa74aa63d7a') in 0.092670 seconds 
+  Import took 0.100651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Fantasy Pack/wallCornerEdge.fbx
+  artifactKey: Guid(d9ebf890bf0704eda8bc275471f2329b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/wallCornerEdge.fbx using Guid(d9ebf890bf0704eda8bc275471f2329b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9886069da17014225277331a6efd2b5f') in 0.039828 seconds 
+  Import took 0.046207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Fantasy Pack/wallDetailHorizontal.fbx
+  artifactKey: Guid(9128ca37233bf4f778392aba1c19bfab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/wallDetailHorizontal.fbx using Guid(9128ca37233bf4f778392aba1c19bfab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '653ddb554aaf679190d754c33dd9b98d') in 0.051606 seconds 
+  Import took 0.060881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Fantasy Pack/wallBroken.fbx
+  artifactKey: Guid(a4dcd7577826f4b9f83eeb38c66c304a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/wallBroken.fbx using Guid(a4dcd7577826f4b9f83eeb38c66c304a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7a0682d04bba9c2b27b311df057e2ff') in 0.055624 seconds 
+  Import took 0.062727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000713 seconds.
+  path: Assets/Fantasy Pack/wallWoodDoorwaySquareWide.fbx
+  artifactKey: Guid(12b555c70a4fb4c039f25385fb7e5045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/wallWoodDoorwaySquareWide.fbx using Guid(12b555c70a4fb4c039f25385fb7e5045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6493496815489cbeecb4e42171aaf8e0') in 0.068640 seconds 
+  Import took 0.074933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Fantasy Pack/wallWoodCornerEdge.fbx
+  artifactKey: Guid(924b65a8f48e04d0a87f62c287254188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/wallWoodCornerEdge.fbx using Guid(924b65a8f48e04d0a87f62c287254188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84a74df78b1f8e540ddcb897aae5cb03') in 0.062687 seconds 
+  Import took 0.067828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Fantasy Pack/wallWindowStone.fbx
+  artifactKey: Guid(51ed0c394033443afae2258d1ab1a9aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/wallWindowStone.fbx using Guid(51ed0c394033443afae2258d1ab1a9aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a36edc06cfa8b6dfc483827e51469155') in 0.067226 seconds 
+  Import took 0.072386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Fantasy Pack/wallHalf.fbx
+  artifactKey: Guid(2fe63831529fe43bd866d13ac5b424ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/wallHalf.fbx using Guid(2fe63831529fe43bd866d13ac5b424ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aad1faa118982963fab9871982feb6eb') in 0.062700 seconds 
+  Import took 0.067104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Fantasy Pack/wallWoodRounded.fbx
+  artifactKey: Guid(1858c3598bac046238f6050030fe1c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/wallWoodRounded.fbx using Guid(1858c3598bac046238f6050030fe1c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '249e3c9d30492340f7638688c8adb3df') in 0.060866 seconds 
+  Import took 0.064814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Fantasy Pack/roofWindow.fbx
+  artifactKey: Guid(71bec67a8dff84ec1a93241c4745c8c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/roofWindow.fbx using Guid(71bec67a8dff84ec1a93241c4745c8c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9768d5a8dea7d7d6f46f19ef8567fb39') in 0.083441 seconds 
+  Import took 0.087860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Fantasy Pack/wallBlock.fbx
+  artifactKey: Guid(c60f92a6b5b9049908d71e8e500a38e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/wallBlock.fbx using Guid(c60f92a6b5b9049908d71e8e500a38e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bfe201f9b3107018973d8d220e60099') in 0.060969 seconds 
+  Import took 0.065192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Fantasy Pack/wallWoodHalf.fbx
+  artifactKey: Guid(741d7d4dfdd044e7eb03c9b8a0831f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/wallWoodHalf.fbx using Guid(741d7d4dfdd044e7eb03c9b8a0831f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b82ed5d6375b1aa164670f9ec6bad61d') in 0.054890 seconds 
+  Import took 0.061833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.886839 seconds.
+  path: Assets/Fantasy Pack/wallWoodWindowGlass.fbx
+  artifactKey: Guid(57794f59d980b44339aa0f52d4e049a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/wallWoodWindowGlass.fbx using Guid(57794f59d980b44339aa0f52d4e049a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8192e66b5f133f6945e4b81dfe3ba48f') in 0.025112 seconds 
+  Import took 0.029684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Fantasy Pack/wallWoodWindowRound.fbx
+  artifactKey: Guid(6cfbc660b18034a25a9c19841a0139c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/wallWoodWindowRound.fbx using Guid(6cfbc660b18034a25a9c19841a0139c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '814a2d933d459e3e04c97053984db781') in 0.023536 seconds 
+  Import took 0.027077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Fantasy Pack/windmill.fbx
+  artifactKey: Guid(07b19f13dad2b47e88cd94d22f299ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/windmill.fbx using Guid(07b19f13dad2b47e88cd94d22f299ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fff460ff79b0175f2cf1916cd990758c') in 0.093387 seconds 
+  Import took 0.100522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000517 seconds.
+  path: Assets/Fantasy Pack/watermill.fbx
+  artifactKey: Guid(0309c67341cc14cffb8ebeaab53d470e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/watermill.fbx using Guid(0309c67341cc14cffb8ebeaab53d470e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6f14397e9d45c9bf4aa98220adf0809') in 0.152794 seconds 
+  Import took 0.158199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Fantasy Pack/wheel.fbx
+  artifactKey: Guid(5533eb787b69e476ab75140c7764e612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/wheel.fbx using Guid(5533eb787b69e476ab75140c7764e612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '335bf57db16412cfbc7ea9997436e0b4') in 0.026336 seconds 
+  Import took 0.030319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Fantasy Pack/wallWoodWindowShutters.fbx
+  artifactKey: Guid(4617a9a6622734071ac008ae79882318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/wallWoodWindowShutters.fbx using Guid(4617a9a6622734071ac008ae79882318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c5c7c93d6b1c2e0839d08399da45310') in 0.062644 seconds 
+  Import took 0.070150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Fantasy Pack/wallWoodWindowStone.fbx
+  artifactKey: Guid(c4b760f3f4e50487386c24114cfb18cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/wallWoodWindowStone.fbx using Guid(c4b760f3f4e50487386c24114cfb18cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a742a26c4063fa155f165fdc626bcac') in 0.066393 seconds 
+  Import took 0.071046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Fantasy Pack/wallWoodWindowSmall.fbx
+  artifactKey: Guid(6c173cfee9a2441cdbcc4f6f7aa36c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/wallWoodWindowSmall.fbx using Guid(6c173cfee9a2441cdbcc4f6f7aa36c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fc57d0ac754833af34d50dcb864f828') in 0.065750 seconds 
+  Import took 0.071430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 96.889849 seconds.
+  path: Assets/Fantasy Pack/bannerGreen.fbx
+  artifactKey: Guid(57b9f60bac9b14cb6b5c136a4b723efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/bannerGreen.fbx using Guid(57b9f60bac9b14cb6b5c136a4b723efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2e0b1e0193be3c314ad7e1f02842785') in 0.010657 seconds 
+  Import took 0.017263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030864 seconds.
+  path: Assets/Fantasy Pack/bannerGreen.fbx
+  artifactKey: Guid(57b9f60bac9b14cb6b5c136a4b723efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/bannerGreen.fbx using Guid(57b9f60bac9b14cb6b5c136a4b723efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2e0b1e0193be3c314ad7e1f02842785') in 0.007272 seconds 
+  Import took 0.013488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Fantasy Pack/fountainRoundDetail.fbx
+  artifactKey: Guid(26d605dc2b6b34680893ddcda4eeff65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/fountainRoundDetail.fbx using Guid(26d605dc2b6b34680893ddcda4eeff65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9d1b69007d3827840f55994229a7837') in 0.511412 seconds 
+  Import took 0.516609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Fantasy Pack/fountainSquare.fbx
+  artifactKey: Guid(3fcb372c3bc3f4f0b9cd7112cb755a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/fountainSquare.fbx using Guid(3fcb372c3bc3f4f0b9cd7112cb755a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '732bae55e2396b543636b2efa26a4fbd') in 0.049538 seconds 
+  Import took 0.056186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Fantasy Pack/fence.fbx
+  artifactKey: Guid(b0701d22fba494a9b8cb8438f5b755f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/fence.fbx using Guid(b0701d22fba494a9b8cb8438f5b755f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad0feb1ce4e150557db3f41ce367eb68') in 0.047251 seconds 
+  Import took 0.053695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Fantasy Pack/roofHigh.fbx
+  artifactKey: Guid(a8e3e1465c76c4d0e8fe565e4f943213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/roofHigh.fbx using Guid(a8e3e1465c76c4d0e8fe565e4f943213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a3b4fd9b753a51d69efce7af252226b') in 0.078159 seconds 
+  Import took 0.083315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Fantasy Pack/planks.fbx
+  artifactKey: Guid(803d5bbf4d21f4609936da57fb1da793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/planks.fbx using Guid(803d5bbf4d21f4609936da57fb1da793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51d66470e0f0b50c36bab2d3c070edeb') in 0.019588 seconds 
+  Import took 0.022860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Fantasy Pack/rockSmall.fbx
+  artifactKey: Guid(63422440d31044b9c9729153f264c4bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/rockSmall.fbx using Guid(63422440d31044b9c9729153f264c4bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccd637e93785d210c3d12efd6b988f23') in 0.053473 seconds 
+  Import took 0.058346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Fantasy Pack/roofLeft.fbx
+  artifactKey: Guid(016a799c5be3344db862fa660df5d9c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/roofLeft.fbx using Guid(016a799c5be3344db862fa660df5d9c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4d4b2a3bd268f1f2c31e723fb46701f') in 0.069952 seconds 
+  Import took 0.075347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/Fantasy Pack/hedge.fbx
+  artifactKey: Guid(34a12254c82e14e1982826581bf591d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/hedge.fbx using Guid(34a12254c82e14e1982826581bf591d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e2cd1dd55fde6c7677785101308df1b') in 0.050049 seconds 
+  Import took 0.057046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/Fantasy Pack/chimney.fbx
+  artifactKey: Guid(2fd1ac6c65a3e4b1bb61f01c4cff34dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/chimney.fbx using Guid(2fd1ac6c65a3e4b1bb61f01c4cff34dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a16ac8b96cfa0d931c547ab8f8a56ca') in 0.043696 seconds 
+  Import took 0.050278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000468 seconds.
+  path: Assets/Fantasy Pack/pillarStone.fbx
+  artifactKey: Guid(351b690accbf74a26a589777420a5d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/pillarStone.fbx using Guid(351b690accbf74a26a589777420a5d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2a5c4f24e9bc7ec15c1c3819a353d0b') in 0.047443 seconds 
+  Import took 0.055149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Fantasy Pack/roofHighCornerInner.fbx
+  artifactKey: Guid(5aa97b1dd6cef4935aef9bf08b4147ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/roofHighCornerInner.fbx using Guid(5aa97b1dd6cef4935aef9bf08b4147ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd2d895a2b105724d8e96533df02621b') in 0.058317 seconds 
+  Import took 0.064012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Fantasy Pack/hedgeCurved.fbx
+  artifactKey: Guid(8b4677841e2524503a9b8ff04000c7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/hedgeCurved.fbx using Guid(8b4677841e2524503a9b8ff04000c7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '640c58db8551c189e040bfeb9bb71038') in 0.055397 seconds 
+  Import took 0.060323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Fantasy Pack/roofHighGableDetail.fbx
+  artifactKey: Guid(8596a58e3d54d48daaed4db113a8995e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/roofHighGableDetail.fbx using Guid(8596a58e3d54d48daaed4db113a8995e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcde9cfe8546b9cd618d0f3833a06b9a') in 0.070041 seconds 
+  Import took 0.075381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Fantasy Pack/roofFlat.fbx
+  artifactKey: Guid(e28765b18c82340f6a087e93fe44e265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/roofFlat.fbx using Guid(e28765b18c82340f6a087e93fe44e265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3323a16fa9025c684793d50f8b7c62a1') in 0.045430 seconds 
+  Import took 0.051611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001471 seconds.
+  path: Assets/Fantasy Pack/planksOpening.fbx
+  artifactKey: Guid(6e9d840b609bd456e95c168e40fd33b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/planksOpening.fbx using Guid(6e9d840b609bd456e95c168e40fd33b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebebb724358e88f8f515fb222ef11303') in 0.038528 seconds 
+  Import took 0.046145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Fantasy Pack/roofGableEnd.fbx
+  artifactKey: Guid(f06a589993b99460e8e0ec488427aad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/roofGableEnd.fbx using Guid(f06a589993b99460e8e0ec488427aad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb29db5b4379aebaf8c118a980b1fc06') in 0.065611 seconds 
+  Import took 0.072806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000525 seconds.
+  path: Assets/Fantasy Pack/fountainRound.fbx
+  artifactKey: Guid(f43f7128bbfb94bccb91d94268cc6f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/fountainRound.fbx using Guid(f43f7128bbfb94bccb91d94268cc6f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eebbc100f009b9d177c59052b8b36dfd') in 0.055612 seconds 
+  Import took 0.063903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000816 seconds.
+  path: Assets/Fantasy Pack/roofGableTop.fbx
+  artifactKey: Guid(54d0969f7ef1240018bd829f86998a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/roofGableTop.fbx using Guid(54d0969f7ef1240018bd829f86998a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c8552c0762cfe9285810fbcc2efeca6') in 0.059350 seconds 
+  Import took 0.065167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Fantasy Pack/roofHighWindow.fbx
+  artifactKey: Guid(4b030e8042c5543118784ee56a21b51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/roofHighWindow.fbx using Guid(4b030e8042c5543118784ee56a21b51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a38ad11163bb5cbabf592d95e2b150c8') in 0.064336 seconds 
+  Import took 0.069746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Fantasy Pack/roadBend.fbx
+  artifactKey: Guid(2466e01f95fb8403ea264a83d19eb200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/roadBend.fbx using Guid(2466e01f95fb8403ea264a83d19eb200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5abe98d5fb6a27f4c204c189de9a04a8') in 0.037760 seconds 
+  Import took 0.048319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000487 seconds.
+  path: Assets/Fantasy Pack/roadSlope.fbx
+  artifactKey: Guid(92d2ae6f466b64ec888ce84e48960fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/roadSlope.fbx using Guid(92d2ae6f466b64ec888ce84e48960fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '551447826b269504ca9cb83f9b91a9c2') in 0.039858 seconds 
+  Import took 0.046577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Fantasy Pack/fenceCurved.fbx
+  artifactKey: Guid(d83eeceafe281411f82ab43781654d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/fenceCurved.fbx using Guid(d83eeceafe281411f82ab43781654d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e52124d50e39406811eb5f8429a07c5') in 0.054851 seconds 
+  Import took 0.060151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/Fantasy Pack/roofCornerInner.fbx
+  artifactKey: Guid(5b82c3b3b54084efe88345dc8230e37f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/roofCornerInner.fbx using Guid(5b82c3b3b54084efe88345dc8230e37f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69f19f5cd8df0cf623d6643772c26def') in 0.062686 seconds 
+  Import took 0.067805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Fantasy Pack/roofCornerRound.fbx
+  artifactKey: Guid(a03d6da21456c4b67a5177d30fe7b7a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/roofCornerRound.fbx using Guid(a03d6da21456c4b67a5177d30fe7b7a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd15876bda0f6015fc961cb28cfd84950') in 0.060427 seconds 
+  Import took 0.064474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000393 seconds.
+  path: Assets/Fantasy Pack/roadEdge.fbx
+  artifactKey: Guid(a321e8deaaa584fd7b661de1968ed109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/roadEdge.fbx using Guid(a321e8deaaa584fd7b661de1968ed109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '663d252959c169f55f2e38151f6fe3e8') in 0.046929 seconds 
+  Import took 0.055760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Fantasy Pack/roofHighLeft.fbx
+  artifactKey: Guid(1e1df4c6e6f0146ba9639ac691cc4eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/roofHighLeft.fbx using Guid(1e1df4c6e6f0146ba9639ac691cc4eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1582a841d2768e5da0ced0da72afbd3f') in 0.064928 seconds 
+  Import took 0.073176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Fantasy Pack/roadCorner.fbx
+  artifactKey: Guid(0e7499751a77c47ffae14bf3dac61736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/roadCorner.fbx using Guid(0e7499751a77c47ffae14bf3dac61736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa09537ee8e27258fc28206068db96e1') in 0.043756 seconds 
+  Import took 0.050404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Fantasy Pack/overhang.fbx
+  artifactKey: Guid(a85b459e2e1c34834aa6fcc3e3d0f248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/overhang.fbx using Guid(a85b459e2e1c34834aa6fcc3e3d0f248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98cb3f1fb12cd204378481f40bbeaf8a') in 0.057060 seconds 
+  Import took 0.061180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Fantasy Pack/fountainCornerInner.fbx
+  artifactKey: Guid(f6f542ac1322d449191d2877e7a965f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/fountainCornerInner.fbx using Guid(f6f542ac1322d449191d2877e7a965f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b3f479843913cdc6e1028de26a397f9') in 0.060992 seconds 
+  Import took 0.065415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Fantasy Pack/planksHalf.fbx
+  artifactKey: Guid(24d65d8194e994083b9dd536b0f1d215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/planksHalf.fbx using Guid(24d65d8194e994083b9dd536b0f1d215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afd1ddf427f5685dbbdfa859405e8934') in 0.062868 seconds 
+  Import took 0.067100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Fantasy Pack/polesHorizontal.fbx
+  artifactKey: Guid(4b24896cf217b47eab7bb31cf584710e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/polesHorizontal.fbx using Guid(4b24896cf217b47eab7bb31cf584710e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24db5e8184fe8360a7c936f0ab16d45c') in 0.040208 seconds 
+  Import took 0.045462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Fantasy Pack/roofHighGableTop.fbx
+  artifactKey: Guid(acad09cc006cd48f58348b1af9b053ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/roofHighGableTop.fbx using Guid(acad09cc006cd48f58348b1af9b053ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5877edac4a86498321b28e5009edb2ec') in 0.067172 seconds 
+  Import took 0.074932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/Fantasy Pack/chimneyBase.fbx
+  artifactKey: Guid(133444d0f2dda48c3ac8a1cf807595c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/chimneyBase.fbx using Guid(133444d0f2dda48c3ac8a1cf807595c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '974f9ed7b9a49f854a111ad54f30c28d') in 0.055843 seconds 
+  Import took 0.060837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Fantasy Pack/roadCurb.fbx
+  artifactKey: Guid(6bf4c0fe0df07431cbdffecaebc22c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/roadCurb.fbx using Guid(6bf4c0fe0df07431cbdffecaebc22c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75d132e92bddad18f1acdd2969ad7e88') in 0.047021 seconds 
+  Import took 0.054085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Fantasy Pack/fountainCorner.fbx
+  artifactKey: Guid(6591b91b50da449ae83a22e95954ab9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/fountainCorner.fbx using Guid(6591b91b50da449ae83a22e95954ab9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4beee54db22c2766e516e9fea9348d7c') in 0.068852 seconds 
+  Import took 0.073693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Fantasy Pack/roof.fbx
+  artifactKey: Guid(beef38fb932e646b8add50c78fc01731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/roof.fbx using Guid(beef38fb932e646b8add50c78fc01731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7ee6bb66c1194200fa8679c21f174a2') in 0.064957 seconds 
+  Import took 0.069030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Fantasy Pack/roofHighFlat.fbx
+  artifactKey: Guid(bc5f3409ad6a246a9b66776a61786c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/roofHighFlat.fbx using Guid(bc5f3409ad6a246a9b66776a61786c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc0f0274ea9e83a4c418212f19d53446') in 0.035235 seconds 
+  Import took 0.039341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Fantasy Pack/roofGableDetail.fbx
+  artifactKey: Guid(25938af9f247f4d7e8aac9b40c2296ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/roofGableDetail.fbx using Guid(25938af9f247f4d7e8aac9b40c2296ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '609bfd26af00b29bfb68d4fa1fd86681') in 0.079873 seconds 
+  Import took 0.084179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Fantasy Pack/rockWide.fbx
+  artifactKey: Guid(cbfccc9f421f4493abb3007dc43bbd61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/rockWide.fbx using Guid(cbfccc9f421f4493abb3007dc43bbd61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cbca72280f47276eb4be8aa2d0ecc3a') in 0.026394 seconds 
+  Import took 0.033207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Fantasy Pack/roofGable.fbx
+  artifactKey: Guid(d78755f445e8a48ed9d31ea3ff4e7946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/roofGable.fbx using Guid(d78755f445e8a48ed9d31ea3ff4e7946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71882bb9832efd3d38893b7256c3099a') in 0.088803 seconds 
+  Import took 0.095195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Fantasy Pack/fenceGate.fbx
+  artifactKey: Guid(bef4f7b19e1404310af04a4c6810523e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/fenceGate.fbx using Guid(bef4f7b19e1404310af04a4c6810523e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e17682818b80d240e1113063ec828a7') in 0.074429 seconds 
+  Import took 0.079452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Fantasy Pack/fountainEdge.fbx
+  artifactKey: Guid(e690503a4ea0442f88eb45a511a94733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/fountainEdge.fbx using Guid(e690503a4ea0442f88eb45a511a94733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4998f6a1e73c832f7c3b2fdd05ad93a4') in 0.060770 seconds 
+  Import took 0.065606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Fantasy Pack/roadEdgeSlope.fbx
+  artifactKey: Guid(430f6e6db5576498eb4527c787d025af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/roadEdgeSlope.fbx using Guid(430f6e6db5576498eb4527c787d025af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6e672ba9556ab1118a63fd424106d96') in 0.057119 seconds 
+  Import took 0.061300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Fantasy Pack/cart.fbx
+  artifactKey: Guid(698eecb1bad3e4b2290117bf53640008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/cart.fbx using Guid(698eecb1bad3e4b2290117bf53640008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97f1d565b14ae00425943d88dd847c58') in 0.068200 seconds 
+  Import took 0.075727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000980 seconds.
+  path: Assets/Fantasy Pack/roofCorner.fbx
+  artifactKey: Guid(4b57f871f48f04fa0b0c7886e323700d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/roofCorner.fbx using Guid(4b57f871f48f04fa0b0c7886e323700d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7c6dc2cee6b5ca2132f95c699074312') in 0.060132 seconds 
+  Import took 0.066588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Fantasy Pack/poles.fbx
+  artifactKey: Guid(32da3ed8084db4c08a8d313ad33fee17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/poles.fbx using Guid(32da3ed8084db4c08a8d313ad33fee17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e2ec93c75702f10f77370b079b5b2de') in 0.042541 seconds 
+  Import took 0.051621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000720 seconds.
+  path: Assets/Fantasy Pack/roadCornerInner.fbx
+  artifactKey: Guid(010afa9da62a84ade81c02b3886a15e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/roadCornerInner.fbx using Guid(010afa9da62a84ade81c02b3886a15e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e7c9b84756e1245e2a753b522004d92') in 0.049812 seconds 
+  Import took 0.059640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Fantasy Pack/roofHighCornerRound.fbx
+  artifactKey: Guid(3f22f47d9f24446f4b1c9386ce6ddc0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/roofHighCornerRound.fbx using Guid(3f22f47d9f24446f4b1c9386ce6ddc0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1aa0277b1515392677fcfba1dc897e2') in 0.062925 seconds 
+  Import took 0.067485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Fantasy Pack/fountainSquareDetail.fbx
+  artifactKey: Guid(2407852c0e15d45108d77b4a5bd1e630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/fountainSquareDetail.fbx using Guid(2407852c0e15d45108d77b4a5bd1e630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63549dc155b5efec428a0998883db5d6') in 0.062941 seconds 
+  Import took 0.068903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000557 seconds.
+  path: Assets/Fantasy Pack/fountainCenter.fbx
+  artifactKey: Guid(d5977fc3a8cea418fa73448488390983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/fountainCenter.fbx using Guid(d5977fc3a8cea418fa73448488390983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e208481cd6dc467133a6291758ccae83') in 0.046019 seconds 
+  Import took 0.051489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Fantasy Pack/roofHighRight.fbx
+  artifactKey: Guid(36853991d66b7467fb9111c97042bb0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/roofHighRight.fbx using Guid(36853991d66b7467fb9111c97042bb0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4db3de0ab43b13c4992cab3b19c4255b') in 0.081762 seconds 
+  Import took 0.087348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Fantasy Pack/roofHighGable.fbx
+  artifactKey: Guid(9f4105d3336064851af6be7465382463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/roofHighGable.fbx using Guid(9f4105d3336064851af6be7465382463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78e1b85d69c1494c76e2bc57b05bfe6a') in 0.065405 seconds 
+  Import took 0.071596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Fantasy Pack/fountainCornerInnerSquare.fbx
+  artifactKey: Guid(8257e4cfce542402e9c062ae024e045c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/fountainCornerInnerSquare.fbx using Guid(8257e4cfce542402e9c062ae024e045c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd72ab8932dfe374c09cd76b8e8b0fd7') in 0.061439 seconds 
+  Import took 0.066958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Fantasy Pack/roofHighPoint.fbx
+  artifactKey: Guid(d2b3e4c8720ec476fb4179683b8f7862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/roofHighPoint.fbx using Guid(d2b3e4c8720ec476fb4179683b8f7862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e07ad8e212d661f7c5118d0346b5a6c8') in 0.052334 seconds 
+  Import took 0.059062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Fantasy Pack/cartHigh.fbx
+  artifactKey: Guid(52e3641db35f244fcb0c3f3d39bd42a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/cartHigh.fbx using Guid(52e3641db35f244fcb0c3f3d39bd42a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69c8c26660e4b78c7c04f3ac9462f847') in 0.097892 seconds 
+  Import took 0.102229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Fantasy Pack/lantern.fbx
+  artifactKey: Guid(2b4785da4bf8a4750a8dc5aa0814d592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/lantern.fbx using Guid(2b4785da4bf8a4750a8dc5aa0814d592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd34ecf5ba715ce14fe7a34c2a1655c84') in 0.059719 seconds 
+  Import took 0.063897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Fantasy Pack/road.fbx
+  artifactKey: Guid(1de56d4a5561d4827a6b70846aee6510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/road.fbx using Guid(1de56d4a5561d4827a6b70846aee6510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d0f87fa034d591ae53a38ec6ca5946c') in 0.036535 seconds 
+  Import took 0.041502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Fantasy Pack/fenceBroken.fbx
+  artifactKey: Guid(4850b53c5a9f447d1bd87d53105a5415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/fenceBroken.fbx using Guid(4850b53c5a9f447d1bd87d53105a5415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8d7c28a4693f904c770f8a99fa4276e') in 0.042427 seconds 
+  Import took 0.049812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000865 seconds.
+  path: Assets/Fantasy Pack/rockLarge.fbx
+  artifactKey: Guid(8c20a58959d79420cabb7fd3c34f0969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/rockLarge.fbx using Guid(8c20a58959d79420cabb7fd3c34f0969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '619fd3a755745a0d26de89c661031961') in 0.027340 seconds 
+  Import took 0.036560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Fantasy Pack/pillarWood.fbx
+  artifactKey: Guid(9e138469a486b485a8f5ce034dae0bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/pillarWood.fbx using Guid(9e138469a486b485a8f5ce034dae0bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00fbc285ada97ae6fa7864bf7d77fec8') in 0.059487 seconds 
+  Import took 0.069351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000673 seconds.
+  path: Assets/Fantasy Pack/roofHighCorner.fbx
+  artifactKey: Guid(74395991dad694aa489573883256f769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/roofHighCorner.fbx using Guid(74395991dad694aa489573883256f769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd65085cff427f739632e2ae83f3029ab') in 0.075960 seconds 
+  Import took 0.085786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Fantasy Pack/roofHighGableEnd.fbx
+  artifactKey: Guid(c4d36587faa1e4907a24b39280975ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/roofHighGableEnd.fbx using Guid(c4d36587faa1e4907a24b39280975ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7adbbe9d98d793865391bbe253574c1') in 0.066434 seconds 
+  Import took 0.070468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Fantasy Pack/blade.fbx
+  artifactKey: Guid(dec8e01f3ba804ac1bbc81fd9edbeff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/blade.fbx using Guid(dec8e01f3ba804ac1bbc81fd9edbeff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bf73941ebe1bacaf82d44f432683370') in 0.046595 seconds 
+  Import took 0.053240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000762 seconds.
+  path: Assets/Fantasy Pack/bannerRed.fbx
+  artifactKey: Guid(d3b7df2f0a4e444a7a8a5eb068debdbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/bannerRed.fbx using Guid(d3b7df2f0a4e444a7a8a5eb068debdbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '159f6e207becc5c78da91a676dd0477f') in 0.065497 seconds 
+  Import took 0.072650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Fantasy Pack/hedgeGate.fbx
+  artifactKey: Guid(7062a08eb878745ecbfbe94f3bc8aff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/hedgeGate.fbx using Guid(7062a08eb878745ecbfbe94f3bc8aff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0359373fef77b2ef39bc28774af7afc0') in 0.059321 seconds 
+  Import took 0.063310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Fantasy Pack/roofPoint.fbx
+  artifactKey: Guid(38dfd0608c8a74df68a62f6d2afeb27d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/roofPoint.fbx using Guid(38dfd0608c8a74df68a62f6d2afeb27d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '179aca1c00bf86dc25dce3f1e65dca92') in 0.048686 seconds 
+  Import took 0.056655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Fantasy Pack/fountainCurved.fbx
+  artifactKey: Guid(1641e4e7cf0af42298aa7bc39aab7ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/fountainCurved.fbx using Guid(1641e4e7cf0af42298aa7bc39aab7ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '345ea8f1adcf91f36fa7696417f9e5f7') in 0.058509 seconds 
+  Import took 0.063387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Fantasy Pack/chimneyTop.fbx
+  artifactKey: Guid(9b8cb940f98ea44a98534a59098c436d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Pack/chimneyTop.fbx using Guid(9b8cb940f98ea44a98534a59098c436d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b42de42533d03ba065ed01d0da49845f') in 0.051603 seconds 
+  Import took 0.059879 seconds .
+
