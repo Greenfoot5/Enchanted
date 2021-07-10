@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ff1382f1ba0149d1abec1858a0e040c, type: 3}
   m_Name: BlueFire
   m_EditorClassIdentifier: 
-  id: 
   spellClass: {fileID: 0}
   spellType: 0
-  effect: 0
-  cost: 0
-  scaling: 0
+  effect: 8
+  cost: 26
+  scaling: 1.8
