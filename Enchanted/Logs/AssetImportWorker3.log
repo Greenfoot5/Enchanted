@@ -4065,3 +4065,27 @@ Received Import Request.
 Start importing Assets/Fantasy Pack/chimneyTop.fbx using Guid(9b8cb940f98ea44a98534a59098c436d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b42de42533d03ba065ed01d0da49845f') in 0.051603 seconds 
   Import took 0.059879 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 916.233009 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(367ac59e8587241c8905290f94a8d738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(367ac59e8587241c8905290f94a8d738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0a5de3e18e82f388e2ffb6fa2dea847') in 0.002495 seconds 
+  Import took 0.008528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.617597 seconds.
+  path: Assets/Scenes/SampleDungeon.unity
+  artifactKey: Guid(dc485f7f30e8947d58434618b7b7bbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleDungeon.unity using Guid(dc485f7f30e8947d58434618b7b7bbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83130f32eb1336d4cbe6c97f396f0747') in 0.004093 seconds 
+  Import took 0.009712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.526073 seconds.
+  path: Assets/Scenes/Greenfoot5'sTestScene.unity
+  artifactKey: Guid(dc485f7f30e8947d58434618b7b7bbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Greenfoot5'sTestScene.unity using Guid(dc485f7f30e8947d58434618b7b7bbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d2e33124fd85c45d6401535d884616f') in 0.004024 seconds 
+  Import took 0.009188 seconds .
+
