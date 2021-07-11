@@ -4089,3 +4089,172 @@ Received Import Request.
 Start importing Assets/Scenes/Greenfoot5'sTestScene.unity using Guid(dc485f7f30e8947d58434618b7b7bbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d2e33124fd85c45d6401535d884616f') in 0.004024 seconds 
   Import took 0.009188 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 7569.529455 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.010094 seconds 
+  Import took 0.066004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9077.683978 seconds.
+  path: Assets/TempCharacter
+  artifactKey: Guid(7f164d25c0bd94c50b19e0cbe41e9c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TempCharacter using Guid(7f164d25c0bd94c50b19e0cbe41e9c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a2c3d2b191363d16526bee929dad0f2') in 0.006756 seconds 
+  Import took 0.047843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.654291 seconds.
+  path: Assets/Animated Character 1
+  artifactKey: Guid(343518e16ae7f6c4d96398b8956522f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Character 1 using Guid(343518e16ae7f6c4d96398b8956522f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12f9f56a5921bbf79881848786f41d8d') in 0.002470 seconds 
+  Import took 0.007452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.937657 seconds.
+  path: Assets/Animated Character 1/Models
+  artifactKey: Guid(4d534a3702b4855419e08107a2ef8194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Character 1/Models using Guid(4d534a3702b4855419e08107a2ef8194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33cdb15b39844ed8bf12b4289ee18ae9') in 0.003371 seconds 
+  Import took 0.007737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.091062 seconds.
+  path: Assets/Animated Character 1/Models/characterMedium.fbx
+  artifactKey: Guid(e4299bf26a09e9049839e1a1b75e562c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Character 1/Models/characterMedium.fbx using Guid(e4299bf26a09e9049839e1a1b75e562c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '423d049a43b0033b362f840efaeb4497') in 0.295838 seconds 
+  Import took 0.302035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.288716 seconds.
+  path: Assets/Animated Character 1/Models/Materials
+  artifactKey: Guid(4de982d388d94e74f93a609f87bbe9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Character 1/Models/Materials using Guid(4de982d388d94e74f93a609f87bbe9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cc445f618b2da3d9a9cc4ca6504cce4') in 0.003251 seconds 
+  Import took 0.008301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.066307 seconds.
+  path: Assets/Animated Character 1/Models/Materials/skin.mat
+  artifactKey: Guid(21c523da74de5e640b1b068246fd96e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Character 1/Models/Materials/skin.mat using Guid(21c523da74de5e640b1b068246fd96e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3488834e7172bd350cba325060f9ddc9') in 0.050115 seconds 
+  Import took 0.055619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 81.486489 seconds.
+  path: Assets/Animated Character 1/Animations
+  artifactKey: Guid(687ea07158e44004fbda89a505bf3e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Character 1/Animations using Guid(687ea07158e44004fbda89a505bf3e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f351b615627809352aaefa60c1472c67') in 0.002885 seconds 
+  Import took 0.007691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.077567 seconds.
+  path: Assets/Animated Character 1/Animations/idle.fbx
+  artifactKey: Guid(86a1903d4d55f514eba79f78c733e4d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Character 1/Animations/idle.fbx using Guid(86a1903d4d55f514eba79f78c733e4d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8f3d6aba89b81b8819b9c15aaa02286') in 0.025506 seconds 
+  Import took 0.031280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Animated Character 1/Animations/run.fbx
+  artifactKey: Guid(f06fcb6250ed56643b597d6c6a6cb9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Character 1/Animations/run.fbx using Guid(f06fcb6250ed56643b597d6c6a6cb9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b18af5e8736cbde6e4aec83e8481712b') in 0.011473 seconds 
+  Import took 0.015741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Animated Character 1/Animations/jump.fbx
+  artifactKey: Guid(9a21dc45af026604a82ac46acd23828d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Character 1/Animations/jump.fbx using Guid(9a21dc45af026604a82ac46acd23828d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac4254e0d2805133491bb75badc54613') in 0.013053 seconds 
+  Import took 0.019164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.095591 seconds.
+  path: Assets/Animated Character 1/Skins
+  artifactKey: Guid(7896cc199502b3845bb7eceefbb9e623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Character 1/Skins using Guid(7896cc199502b3845bb7eceefbb9e623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e095452c09e6d1ff9f30857d7e56e01') in 0.004804 seconds 
+  Import took 0.009524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.064939 seconds.
+  path: Assets/Animated Character 1/Skins/survivorFemaleA.png
+  artifactKey: Guid(4f877fc6c4835ff40bc3530ee16e0d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Character 1/Skins/survivorFemaleA.png using Guid(4f877fc6c4835ff40bc3530ee16e0d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fdc21b7983ab47f26e61e1ffc87bac6') in 0.096062 seconds 
+  Import took 0.101233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Animated Character 1/Skins/survivorMaleB.png
+  artifactKey: Guid(aebb532dd9bbb7d458f971f471d03afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Character 1/Skins/survivorMaleB.png using Guid(aebb532dd9bbb7d458f971f471d03afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fbaa95111fc71a3fc5c66e89c999402') in 0.036532 seconds 
+  Import took 0.040547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Animated Character 1/Skins/zombieC.png
+  artifactKey: Guid(9bac56d0b57930e4b8a27a5040d6fba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Character 1/Skins/zombieC.png using Guid(9bac56d0b57930e4b8a27a5040d6fba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9410fe5cfeec053755f9dc9dcba86124') in 0.043423 seconds 
+  Import took 0.050484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Animated Character 1/Skins/zombieA.png
+  artifactKey: Guid(dc3718fcd3416294687ae1560765ffd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Character 1/Skins/zombieA.png using Guid(dc3718fcd3416294687ae1560765ffd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01b2b856d6f671fcc53e281aa9761896') in 0.039041 seconds 
+  Import took 0.045797 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.102135 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.003 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2100 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 238.4 MB.
+System memory in use after: 237.8 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2702.
+Total: 3.684141 ms (FindLiveObjects: 0.386649 ms CreateObjectMapping: 0.086049 ms MarkObjects: 2.657676 ms  DeleteObjects: 0.552861 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 285.169310 seconds.
+  path: Assets/Animated Character 1/Animations/characterMediumMovement.controller
+  artifactKey: Guid(ab39496c54c8e4e72b08c07ce535ec79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated Character 1/Animations/characterMediumMovement.controller using Guid(ab39496c54c8e4e72b08c07ce535ec79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bce3316eb31446f1e51f5324ac7e8a0') in 0.240413 seconds 
+  Import took 0.244949 seconds .
+
