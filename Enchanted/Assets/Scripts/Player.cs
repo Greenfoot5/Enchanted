@@ -9,10 +9,6 @@ public class Player : MonoBehaviour
     private int _maxMana = 100;
     private float _curMana = 100f;
 
-    // UI
-    public TMP_Text healthText;
-    public TMP_Text manaText;
-    
     // Other
     public Player opponent;
 
@@ -25,12 +21,10 @@ public class Player : MonoBehaviour
     public void DealDamage(float damage)
     {
         _curHealth -= damage;
-        healthText.text = _curHealth.ToString();
     }
 
     private void TakeMana(float amount)
     {
         _curMana -= amount;
-        manaText.text = _curMana.ToString();
     }
 }
