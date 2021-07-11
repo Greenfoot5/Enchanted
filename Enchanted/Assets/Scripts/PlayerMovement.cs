@@ -1,3 +1,4 @@
+using Unity.Mathematics;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -16,27 +17,19 @@ public class PlayerMovement : MonoBehaviour
         Vector3 movement = new Vector3();
 
         // Movement in the X axis
-        if (joystick.Horizontal > deadZone)
+        if (math.abs(joystick.Horizontal) > deadZone)
         {
-            movement.x = moveSpeed;
-        }
-        else if (joystick.Horizontal < -deadZone)
-        {
-            movement.x = moveSpeed * -1;
+            movement.x = joystick.Horizontal;
         }
         
         // Movement in the Y axis
-        if (joystick.Vertical > deadZone)
+        if (math.abs(joystick.Vertical) > deadZone)
         {
-            movement.z = moveSpeed;
-        }
-        else if (joystick.Vertical < -deadZone)
-        {
-            movement.z = moveSpeed * -1;
+            movement.z = joystick.Vertical;
         }
         
-        
-        gameObject.transform.Translate(movement * Time.deltaTime, Space.World);
+        movement.Normalize();
+        gameObject.transform.Translate(movement * (Time.deltaTime * moveSpeed), Space.World);
         
         if (movement != Vector3.zero)
         {
