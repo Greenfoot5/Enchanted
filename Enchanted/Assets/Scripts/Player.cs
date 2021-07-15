@@ -1,30 +1,31 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
 
-public class Player : MonoBehaviour
+public class Player : EntityBase
 {
-    // Stats
-    private int _maxHealth = 100;
-    private float _curHealth = 100f;
-    private int _maxMana = 100;
-    private float _curMana = 100f;
+    // Player class
+    private ClassBase _class;
+    public ClassBase Class { get { return _class; } }
 
-    // Other
-    public Player opponent;
+    // Equipped spells
+    private SpellBase _spell0;
+    private SpellBase _spell1;
+    private SpellBase _spell2;
+    private SpellBase _spell3;
 
-    public void DamageSpell(Spell spell)
+    public SpellBase Spell0 { get { return _spell0; } }
+    public SpellBase Spell1 { get { return _spell1; } }
+    public SpellBase Spell2 { get { return _spell2; } }
+    public SpellBase Spell3 { get { return _spell3; } }
+
+    public void LoadSpells()
     {
-        TakeMana(spell.cost);
-        opponent.DealDamage(spell.effect * spell.scaling);
-    }
+        _class = GetComponentInChildren<ClassBase>();
 
-    public void DealDamage(float damage)
-    {
-        _curHealth -= damage;
-    }
-
-    private void TakeMana(float amount)
-    {
-        _curMana -= amount;
+        _spell0 = _class.GetSpell(0);
+        _spell1 = _class.GetSpell(1);
+        _spell2 = _class.GetSpell(2);
+        _spell3 = _class.GetSpell(3);
     }
 }

@@ -1,4 +1,3 @@
-using Unity.Mathematics;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -6,36 +5,49 @@ public class PlayerMovement : MonoBehaviour
     [Header("Movement Settings")]
     public float moveSpeed = 3f;
     public float rotationSpeed = 90f;
-    
+
     [Header("Joystick Settings")]
     public Joystick joystick;
     public float deadZone = 0.2f;
-    
-    // Update is called once per frame
+
+    private CharacterController controller;
+    private Transform model;
+
+    private Vector3 forward, right;
+
+    private void Start()
+    {
+        // Player controller for movement physics
+        controller = gameObject.GetComponent<CharacterController>();
+        // Player model for rotation
+        model = transform.GetChild(1);
+
+        // Camera axis for joystick input
+        forward = Camera.main.transform.forward;
+        forward.y = 0;
+        forward.Normalize();
+        right = Quaternion.Euler(new Vector3(0, 90, 0)) * forward;
+    }
+
     void Update()
     {
-        Vector3 movement = new Vector3();
+        // Default direction
+        Vector3 direction = Vector3.zero;
 
-        // Movement in the X axis
-        if (math.abs(joystick.Horizontal) > deadZone)
-        {
-            movement.x = joystick.Horizontal;
-        }
-        
-        // Movement in the Y axis
-        if (math.abs(joystick.Vertical) > deadZone)
-        {
-            movement.z = joystick.Vertical;
-        }
-        
-        movement.Normalize();
-        gameObject.transform.Translate(movement * (Time.deltaTime * moveSpeed), Space.World);
-        
-        if (movement != Vector3.zero)
-        {
-            Quaternion toRotation = Quaternion.LookRotation(movement, Vector3.up);
-            transform.rotation = Quaternion.RotateTowards(transform.rotation, toRotation, 
-                rotationSpeed * Time.deltaTime); 
-        }
+        // If direction above the deadZone, calculate it using camera axis
+        if (joystick.Direction.magnitude >= deadZone)
+            direction = right * joystick.Horizontal + forward * joystick.Vertical;
+
+        // Normalize and move
+        direction.Normalize();
+        controller.SimpleMove(moveSpeed * direction);
+
+        // Don't rotate if no movement
+        if (direction == Vector3.zero)
+            return;
+
+        // Lerped rotation
+        Quaternion targetRotation = Quaternion.LookRotation(direction, Vector3.up);
+        model.rotation = Quaternion.Lerp(model.rotation, targetRotation, rotationSpeed * Time.deltaTime);
     }
 }
