@@ -63,7 +63,6 @@ public class SpellJoystick : Joystick
         background.GetComponent<Image>().color = new Color(1, 1, 1, .3f);
         targetting = true;
         DeadZone = 0;
-        Debug.Log("SPELL: BEGIN AIM");
     }
 
     public virtual void StopAiming()
@@ -72,7 +71,6 @@ public class SpellJoystick : Joystick
         targetting = false;
         DeadZone = _deadZoneReset;
         _handle.gameObject.GetComponent<Image>().color = new Color(1, 1, 1);
-        Debug.Log("SPELL: CANCEL");
     }
 
     public virtual void CastSpell()

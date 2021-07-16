@@ -27,7 +27,6 @@ public abstract class SpellProjectileBase : MonoBehaviour
 
     protected virtual void OnTriggerEnter(Collider other)
     {
-        Debug.Log(other);
         if (other.gameObject.tag == "Environment")
             OnCollideEnvironment(other);
         else if (other.gameObject.tag == "Team2")

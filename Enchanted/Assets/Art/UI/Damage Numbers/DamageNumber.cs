@@ -3,6 +3,8 @@ using TMPro;
 
 public class DamageNumber : MonoBehaviour
 {
+    private Vector3? _newLoc;
+
     void Start()
     {
         Animator animator = GetComponent<Animator>();
@@ -11,24 +13,20 @@ public class DamageNumber : MonoBehaviour
         Destroy(gameObject, clipInfo[0].clip.length);
     }
 
-    public void SetData(float value, Vector2 screenPoint)
+    public void SetData(float value, Vector3 worldPoint)
     {
         TMP_Text text = GetComponentInChildren<TMP_Text>();
         text.text = value.ToString();
-        transform.position = screenPoint;
+        _newLoc = worldPoint;
     }
 
-    public void SetData(float value, Vector3 worldPoint)
+    private void LateUpdate()
     {
-        //Vector2 screenLoc = Camera.main.WorldToScreenPoint(worldPoint);
-        //Debug.Log(worldPoint);
-        //Debug.Log(screenLoc);
-        //SetData(value, screenLoc);
-        Debug.Log(Camera.main.WorldToScreenPoint(new Vector3(0, 0, 0)));
-    }
-
-    private void Update()
-    {
-        Debug.Log(Camera.main.WorldToScreenPoint(new Vector3(0,0,0)));
+        if (_newLoc != null)
+        {
+            Vector3 screenPos = Camera.main.WorldToScreenPoint(_newLoc.GetValueOrDefault());
+            transform.position = screenPos;
+            _newLoc = null;
+        }
     }
 }

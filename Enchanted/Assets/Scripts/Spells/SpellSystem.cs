@@ -16,8 +16,6 @@ public class SpellSystem : MonoBehaviour
 
         _spell1 = _player.Spell0;
 
-        Debug.Log(_player);
-        Debug.Log(_spell1);
         joy1.RegisterSystem(this, _spell1);
         _spell1.RegisterOwner(_player);
     }
