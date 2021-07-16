@@ -4,9 +4,18 @@ using UnityEngine;
 
 public abstract class EntityBase : MonoBehaviour
 {
-    public float Health { get { return _health; } }
-
     private float _health;
+
+    public float Health => _health;
+
+    protected SpellEffectManager _spellEffectManager;
+
+    public virtual void Start()
+    {
+        _spellEffectManager = gameObject.AddComponent<SpellEffectManager>();
+    }
+
+    public virtual void AddEffect(SpellEffectBase effect) => _spellEffectManager.AddEffect(effect);
 
     public virtual void Heal(float amount)
     {
@@ -16,9 +25,9 @@ public abstract class EntityBase : MonoBehaviour
     public virtual void Damage(float amount, EntityBase caster)
     {
         _health -= amount;
-        if (caster is Player)
+        if (caster is PlayerBase)
             caster.DamageFeedback(amount, transform.position);
-        if (this is Player)
+        if (this is PlayerBase)
             DamageFeedback(amount);
     }
 

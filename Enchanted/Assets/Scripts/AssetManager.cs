@@ -6,7 +6,7 @@ public class AssetManager : MonoBehaviour
     [SerializeField] private Transform damageNumberParent;
 
     private static AssetManager _instance;
-    public static AssetManager Instance { get { return _instance; } }
+    public static AssetManager Instance => _instance;
 
     private void Start()
     {

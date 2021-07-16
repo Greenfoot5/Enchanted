@@ -22,7 +22,7 @@ public abstract class SpellProjectileBase : MonoBehaviour
         lifeTime -= Time.deltaTime;
         if (lifeTime <= 0)
             Destroy(gameObject);
-        transform.Translate(direction * speed * Time.deltaTime);
+        transform.Translate(speed * Time.deltaTime * direction);
     }
 
     protected virtual void OnTriggerEnter(Collider other)

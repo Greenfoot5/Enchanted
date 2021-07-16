@@ -7,11 +7,11 @@ public class SpellSystem : MonoBehaviour
 
     private SpellBase _spell1;
 
-    private Player _player;
+    private PlayerBase _player;
 
     void Start()
     {
-        _player = gameObject.GetComponent<Player>();
+        _player = gameObject.GetComponent<PlayerBase>();
         _player.LoadSpells();
 
         _spell1 = _player.Spell0;

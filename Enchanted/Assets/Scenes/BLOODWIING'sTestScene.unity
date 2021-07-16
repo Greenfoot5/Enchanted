@@ -196,7 +196,7 @@ GameObject:
   - component: {fileID: 13831207}
   - component: {fileID: 13831206}
   m_Layer: 0
-  m_Name: PostProcessing
+  m_Name: Post Processing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -493,7 +493,7 @@ GameObject:
   - component: {fileID: 143956257}
   - component: {fileID: 143956256}
   m_Layer: 0
-  m_Name: EventSystem
+  m_Name: Event System
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -609,7 +609,7 @@ PrefabInstance:
     - target: {fileID: 13700000, guid: e4299bf26a09e9049839e1a1b75e562c, type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2100000, guid: 44a907dbd89cc3a4582ce0c3aa8f99f0, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e4299bf26a09e9049839e1a1b75e562c, type: 3}
 --- !u!1001 &161041333
@@ -1142,7 +1142,7 @@ GameObject:
   - component: {fileID: 294392484}
   - component: {fileID: 294392483}
   m_Layer: 0
-  m_Name: AssetManager
+  m_Name: Asset Manager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1864,7 +1864,7 @@ GameObject:
   - component: {fileID: 623063393}
   - component: {fileID: 623063392}
   m_Layer: 0
-  m_Name: GameManager
+  m_Name: Game Manager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2081,8 +2081,8 @@ GameObject:
   - component: {fileID: 692379998}
   - component: {fileID: 692379997}
   - component: {fileID: 692379996}
-  - component: {fileID: 692380000}
   - component: {fileID: 692379994}
+  - component: {fileID: 692379999}
   m_Layer: 0
   m_Name: Player1
   m_TagString: Player
@@ -2170,7 +2170,7 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 3
---- !u!114 &692380000
+--- !u!114 &692379999
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2179,9 +2179,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 692379993}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9e7e0db9a64a445459ff70f9c00748b6, type: 3}
+  m_Script: {fileID: 11500000, guid: 3ef65604c086bbf4ba43c364f45b8c3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxHealth: 100
 --- !u!1 &698697993 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ff9f345296225455385beacace59e417, type: 3}
@@ -3944,13 +3945,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1664128624}
-  - component: {fileID: 1664128625}
   - component: {fileID: 1664128626}
   - component: {fileID: 1664128629}
   - component: {fileID: 1664128628}
   - component: {fileID: 1664128627}
   m_Layer: 0
-  m_Name: ClassManager
+  m_Name: Pyromancer Spells
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3970,19 +3970,6 @@ Transform:
   m_Father: {fileID: 692379995}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1664128625
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1664128623}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ef65604c086bbf4ba43c364f45b8c3d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHealth: 100
 --- !u!114 &1664128626
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4839,7 +4826,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1998493773}
   m_Layer: 5
-  m_Name: DamageNumbers
+  m_Name: Damage Numbers
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

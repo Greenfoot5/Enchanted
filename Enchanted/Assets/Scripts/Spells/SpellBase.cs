@@ -12,14 +12,14 @@ public abstract class SpellBase : MonoBehaviour
     [Header("MOBA stats")]
     [SerializeField] private float cooldown;
 
-    public float CooldownStat { get { return cooldown; } }
-    public float Cooldown { get { return _cooldown; } }
+    public float CooldownStat => cooldown;
+    public float Cooldown => _cooldown;
 
     private float _cooldown;
 
-    protected Player _caster;
+    protected PlayerBase _caster;
 
-    public void RegisterOwner(Player owner)
+    public void RegisterOwner(PlayerBase owner)
     {
         _caster = owner;
     }

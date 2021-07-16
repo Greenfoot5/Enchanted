@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Pyromancer : ClassBase
+public class Pyromancer : PlayerBase
 {
     //public static SpellBase[] spells =
     //{
