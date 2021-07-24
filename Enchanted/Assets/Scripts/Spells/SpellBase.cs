@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class SpellBase : MonoBehaviour
+public abstract class SpellBase : ScriptableObject
 {
     //[Header("Basic spell stats")]
     private float effect;

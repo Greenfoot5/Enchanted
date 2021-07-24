@@ -14,9 +14,26 @@ public class BurningEffect : SpellEffectBase
 
     public override bool NeedsRemoval => _stacks == 0;
 
+    private Material material;
+
+    public BurningEffect(Material mat)
+    {
+        material = mat;
+    }
+
+    public override void OnBegin()
+    {
+        //receiver.AddMaterial(material);
+    }
+
     public override void OnTick()
     {
         receiver.Damage(10, sender);
         _stacks -= 1;
+    }
+
+    public override void OnEnd()
+    {
+        //receiver.RemoveMaterial(material);
     }
 }

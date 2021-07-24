@@ -23,6 +23,7 @@ public class SpellEffectManager : MonoBehaviour
 
             if (effect.NeedsRemoval)
             {
+                effect.OnEnd();
                 effects.RemoveAt(i);
                 i--;
                 effectsChanged = true;

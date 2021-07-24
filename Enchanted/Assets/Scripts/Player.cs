@@ -4,32 +4,22 @@ using UnityEngine;
 
 public abstract class PlayerBase : EntityBase
 {
-    // Player stats
-    [Header("Base Stats")]
-    [SerializeField] private float maxHealth;
-
-    public float GetMaxHealth => maxHealth;
-
     // ClassSpells
-    private SpellBase[] _spells;
+    [SerializeField] private LevelingSpellBase[] _spells;
 
     // Equipped spells
-    private SpellBase _spell0;
-    private SpellBase _spell1;
-    private SpellBase _spell2;
-    private SpellBase _spell3;
+    private LevelingSpellBase _spell0;
+    private LevelingSpellBase _spell1;
+    private LevelingSpellBase _spell2;
+    private LevelingSpellBase _spell3;
 
-    public SpellBase Spell0 => _spell0;
-    public SpellBase Spell1 => _spell1;
-    public SpellBase Spell2 => _spell2;
-    public SpellBase Spell3 => _spell3;
+    public LevelingSpellBase Spell0 => _spell0;
+    public LevelingSpellBase Spell1 => _spell1;
+    public LevelingSpellBase Spell2 => _spell2;
+    public LevelingSpellBase Spell3 => _spell3;
 
-    protected virtual void Awake()
-    {
-        _spells = GetComponentsInChildren<SpellBase>();
-    }
-
-    public virtual SpellBase GetSpell(int index) => _spells[index];
+    public virtual LevelingSpellBase GetSpell(int index) => _spells[index];
+    public virtual SpellBase GetSpell(int index, int level) => _spells[index].levels[level];
 
     public void LoadSpells()
     {

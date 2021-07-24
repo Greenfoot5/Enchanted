@@ -15,7 +15,7 @@ public class PlayerMovement : MonoBehaviour
 
     private Vector3 forward, right;
 
-    private void Start()
+    private void Awake()
     {
         // Player controller for movement physics
         controller = gameObject.GetComponent<CharacterController>();
@@ -28,6 +28,9 @@ public class PlayerMovement : MonoBehaviour
         forward.Normalize();
         right = Quaternion.Euler(new Vector3(0, 90, 0)) * forward;
     }
+
+    public Vector3 Forward => forward;
+    public Vector3 Right => right;
 
     void Update()
     {

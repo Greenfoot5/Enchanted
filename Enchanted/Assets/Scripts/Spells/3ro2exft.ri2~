@@ -20,7 +20,7 @@ public class SpellSystem : MonoBehaviour
         _forward = movement.Forward;
         _right = movement.Right;
 
-        _spell1 = _player.Spell0.levels[0];
+        _spell1 = _player.Spell0;
 
         joy1.RegisterSystem(this, _spell1);
         _spell1.RegisterOwner(_player);
@@ -39,9 +39,9 @@ public class SpellSystem : MonoBehaviour
     public void CastSpell(Vector2? direction, SpellBase spell)
     {
         var dir = direction.GetValueOrDefault(new Vector2(1, 0));
-        //Debug.Log(dir);
-        //dir = _right * dir.x + _forward * dir.y;
-        //Debug.Log(dir);
-        spell.CastSpell(_right * dir.x + _forward * dir.y, _player);
+        Debug.Log(dir);
+        dir = _right * dir.x + _forward * dir.y;
+        Debug.Log(dir);
+        spell.CastSpell(new Vector3(dir.x, 0, dir.y), _player);
     }
 }
