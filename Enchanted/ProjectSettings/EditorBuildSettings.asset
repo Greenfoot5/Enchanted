@@ -5,10 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/BLOODWIING'sTestScene.unity
     guid: 40e8f8b39caee064dad17b38fe449e6e
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Greenfoot5'sTestScene.unity
+    guid: 8e6e2f56d03576b4b811a3f33de1bac8
   m_configObjects: {}
