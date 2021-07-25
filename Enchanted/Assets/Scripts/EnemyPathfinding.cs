@@ -1,7 +1,5 @@
-using UnityEditor.Timeline.Actions;
 using UnityEngine;
 using UnityEngine.AI;
-using UnityEngine.Playables;
 
 public class EnemyPathfinding : MonoBehaviour
 {
@@ -89,6 +87,8 @@ public class EnemyPathfinding : MonoBehaviour
         {
             return;
         }
+        // TODO - Generate a path to allow the enemy to stop before reaching the target
+        
         _navMeshAgent.SetDestination(_target.position);
     }
 
