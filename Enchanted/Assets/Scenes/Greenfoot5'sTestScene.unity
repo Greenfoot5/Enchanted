@@ -4559,12 +4559,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6c0f7864124243b6a2f6755c63a93d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialTarget: {fileID: 1435423172}
   updateTargetFrequency: 0.5
   viewRange: 3
   followRange: 5
-  attackRange: 0
+  maxAttackRange: 2
+  minAttackRange: 1
   usesRangedAttack: 0
+  spell: {fileID: 0}
   moveSpeed: 1
 --- !u!195 &1637666090
 NavMeshAgent:

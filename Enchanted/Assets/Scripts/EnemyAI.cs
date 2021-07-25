@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.AI;
 
-public class EnemyPathfinding : MonoBehaviour
+public class EnemyAI : MonoBehaviour
 {
     [Header("Enemy Location")]
     public float updateTargetFrequency = 0.5f;
@@ -9,16 +9,19 @@ public class EnemyPathfinding : MonoBehaviour
     public float followRange = 5;
     
     [Header("Attacks")]
-    public float attackRange;
+    public float maxAttackRange;
+    public float minAttackRange;
     public bool usesRangedAttack;
     public SpellBase spell;
 
     [Header("Genes")]
     [Tooltip("Temporarily here to trial genes in an easy way")]
-    public float moveSpeed = 0;
+    public float moveSpeed;
 
     private Transform _target;
     private NavMeshAgent _navMeshAgent;
+    private NavMeshPath _path;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -26,6 +29,7 @@ public class EnemyPathfinding : MonoBehaviour
         _target = null;
         _navMeshAgent = GetComponent<NavMeshAgent>();
         _navMeshAgent.speed = moveSpeed;
+        _path = new NavMeshPath();
         
         // Having a follow range less then the view range is dumb.
         if (followRange < viewRange)
@@ -38,7 +42,12 @@ public class EnemyPathfinding : MonoBehaviour
         // Update our target on repeat
         InvokeRepeating(nameof(UpdateTarget), 0f, updateTargetFrequency);
     }
-
+    
+    /*
+     * A loop that updates the current target of the enemy.
+     * If the target is outside the follow range, remove it.
+     * If we have no target, and a potential target enters the view range, select them.
+     */
     private void UpdateTarget()
     {
         // Check if the current target is within our follow range.
@@ -56,25 +65,25 @@ public class EnemyPathfinding : MonoBehaviour
         }
         
         // Create a list of players and remember shortest distance and enemy
-        var players = GameObject.FindGameObjectsWithTag("Player");
+        var targets = GameObject.FindGameObjectsWithTag("Player");
         var shortestDistance = Mathf.Infinity;
-        GameObject nearestEnemy = null;
+        GameObject nearestTarget = null;
 
         // Loop through the enemies and find the closest
-        foreach (var player in players)
+        foreach (var target in targets)
         {
-            var distanceToEnemy = Vector3.Distance(transform.position, player.transform.position);
+            var distanceToTarget = Vector3.Distance(transform.position, target.transform.position);
             
             // Save if new closest enemy
-            if (!(distanceToEnemy < shortestDistance)) continue;
-            shortestDistance = distanceToEnemy;
-            nearestEnemy = player;
+            if (!(distanceToTarget < shortestDistance)) continue;
+            shortestDistance = distanceToTarget;
+            nearestTarget = target;
         }
 
         // Check if we have a target and should shoot
-        if (nearestEnemy != null && shortestDistance <= viewRange)
+        if (nearestTarget != null && shortestDistance <= viewRange)
         {
-            _target = nearestEnemy.transform;
+            _target = nearestTarget.transform;
         }
     }
 
@@ -85,20 +94,47 @@ public class EnemyPathfinding : MonoBehaviour
         {
             return;
         }
-        // TODO - Generate a path to allow the enemy to stop before reaching the target
+
+        var targetPosition = _target.position;
+        var curPosition = transform.position;
+        var distanceToTarget = Vector3.Distance(curPosition, _target.transform.position);
         
-        _navMeshAgent.SetDestination(_target.position);
+        if (minAttackRange < distanceToTarget && distanceToTarget < maxAttackRange)
+        {
+            return;
+        }
+        
+        // Generates a distance part of the way to to target
+        if (usesRangedAttack && maxAttackRange > 0)
+        {
+            var percentageOfDistance = 1 - maxAttackRange / distanceToTarget;
+            var distanceVector = (_target.position - curPosition) * percentageOfDistance;
+            targetPosition = curPosition + distanceVector;
+        }
+        
+        _navMeshAgent.CalculatePath(targetPosition, _path);
+        _navMeshAgent.SetPath(_path);
     }
 
     /*
      * Displays the range it will spot a target in red.
      * Displays the range it will follow a target until in yellow.
+     * Displays the max attack range in blue
+     * Displays the min attack range in cyan
      */
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, viewRange);
         Gizmos.color = Color.yellow;
-        Gizmos.DrawWireSphere(transform.position, followRange);
+        // Use viewRange is followRange is smaller
+        Gizmos.DrawWireSphere(transform.position, followRange > viewRange ? followRange : viewRange);
+        if (usesRangedAttack)
+        {
+            Gizmos.color = Color.green;
+            Gizmos.DrawWireSphere(transform.position, maxAttackRange);
+            Gizmos.color = Color.cyan;
+            Gizmos.DrawWireSphere(transform.position, minAttackRange);
+        }
     }
 }
