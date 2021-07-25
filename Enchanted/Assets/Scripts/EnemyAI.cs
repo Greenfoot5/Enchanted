@@ -3,9 +3,6 @@ using UnityEngine.AI;
 
 public class EnemyPathfinding : MonoBehaviour
 {
-    [Tooltip("Used until FindTarget is implemented")]
-    public Transform initialTarget;
-    
     [Header("Enemy Location")]
     public float updateTargetFrequency = 0.5f;
     public float viewRange = 3;
@@ -14,6 +11,7 @@ public class EnemyPathfinding : MonoBehaviour
     [Header("Attacks")]
     public float attackRange;
     public bool usesRangedAttack;
+    public SpellBase spell;
 
     [Header("Genes")]
     [Tooltip("Temporarily here to trial genes in an easy way")]

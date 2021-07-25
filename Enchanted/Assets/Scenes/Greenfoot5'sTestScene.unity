@@ -4560,12 +4560,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   initialTarget: {fileID: 1435423172}
-  updateTargetFrequency: 0
+  updateTargetFrequency: 0.5
   viewRange: 3
   followRange: 5
   attackRange: 0
   usesRangedAttack: 0
-  moveSpeed: 2
+  moveSpeed: 1
 --- !u!195 &1637666090
 NavMeshAgent:
   m_ObjectHideFlags: 0
