@@ -7,20 +7,22 @@ using UnityEngine;
 /// </summary>
 public class BurningEffect : SpellEffectBase
 {
-    // ALL HARDCODED STATS
-    // I WILL USE SOs, BUT I DIDN'T DO IT FOR EFFECTS YET, ONLY SPELLS
-    private int _stacks = 3;
+    public override bool NeedsRemoval => stacks == 0;
 
-    protected override bool CanStack => true;
-    protected override int Stacks => _stacks;
-
-    protected override EffectTickType TickType => EffectTickType.Running;
-    protected override float TickSize => .5f;
-
-    public override bool NeedsRemoval => _stacks == 0;
+    // Stats
+    private float damagePerTick;
 
     // Burning material (REALLY BUGGY)
     private Material material;
+
+    /// <summary>
+    /// Effect-custom method to set a specific amount of damage per tick.
+    /// </summary>
+    /// <param name="damage">Amount of damage per tick</param>
+    public void SetData(float damagePerTick)
+    {
+        this.damagePerTick = damagePerTick;
+    }
 
     public BurningEffect(Material mat)
     {
@@ -37,8 +39,8 @@ public class BurningEffect : SpellEffectBase
     /// </summary>
     public override void OnTick()
     {
-        receiver.Damage(10, sender);
-        _stacks -= 1;
+        receiver.Damage(damagePerTick, sender);
+        stacks -= 1;
     }
 
     public override void OnEnd()

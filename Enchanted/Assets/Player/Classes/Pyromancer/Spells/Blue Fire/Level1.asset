@@ -17,3 +17,8 @@ MonoBehaviour:
   speed: 10
   lifeTime: 1
   material: {fileID: 2100000, guid: 158cc40c15bf95b4ba0d901e32c51887, type: 2}
+  canStack: 0
+  stacks: 0
+  isBeneficial: 0
+  tickType: 0
+  tickSize: 0

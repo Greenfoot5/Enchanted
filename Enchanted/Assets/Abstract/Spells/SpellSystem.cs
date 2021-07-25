@@ -32,7 +32,7 @@ public class SpellSystem : MonoBehaviour
         // Assign the first spell of level 1.
         _spell1 = _player.Spell0.levels[0];
 
-        // Register the spell to the joystick and the player to the spell.
+        // Register the spell to the joystick.
         joy1.RegisterSystem(this, _spell1);
     }
 
