@@ -3,20 +3,17 @@ using UnityEngine.AI;
 
 public class EnemyAI : MonoBehaviour
 {
-    [Header("Enemy Location")]
-    public float updateTargetFrequency = 0.5f;
-    public float viewRange = 3;
-    public float followRange = 5;
-    public float pathUpdateFrequency = 0.1f;
+    public EnemyAISO so;
     
-    [Header("Attacks")]
-    public float maxAttackRange;
-    public float minAttackRange;
-    public bool usesRangedAttack;
-
-    [Header("Genes")]
-    [Tooltip("Temporarily here to trial genes in an easy way")]
-    public float moveSpeed;
+    // Target location data
+    private float _updateTargetFrequency = 0.5f;
+    private float _viewRange = 3;
+    private float _followRange = 5;
+    
+    // Attack data
+    private float _maxAttackRange;
+    private float _minAttackRange;
+    private bool _usesRangedAttack;
 
     private Transform _target;
     private NavMeshAgent _navMeshAgent;
@@ -26,21 +23,29 @@ public class EnemyAI : MonoBehaviour
     private void Start()
     {
         // Setup our initial variables.
+        _updateTargetFrequency = so.updateTargetFrequency;
+        _viewRange = so.viewRange;
+        _followRange = so.followRange;
+
+        _maxAttackRange = so.maxAttackRange;
+        _minAttackRange = so.minAttackRange;
+        _usesRangedAttack = so.usesRangedAttack;
+
         _target = null;
         _navMeshAgent = GetComponent<NavMeshAgent>();
-        _navMeshAgent.speed = moveSpeed;
+        _navMeshAgent.speed = so.moveSpeed;
         _path = new NavMeshPath();
         
         // Having a follow range less then the view range is dumb.
-        if (followRange < viewRange)
+        if (_followRange < _viewRange)
         {
-            Debug.LogWarning("followRange is less than viewRange. Setting followRange to viewRange.",
-                gameObject);
-            followRange = viewRange;
+            Debug.LogWarning("followRange is less than viewRange. Setting GameObject followRange to viewRange.",
+                so);
+            _followRange = _viewRange;
         }
         
         // Update our target on repeat
-        InvokeRepeating(nameof(UpdateTarget), 0f, updateTargetFrequency);
+        InvokeRepeating(nameof(UpdateTarget), 0f, _updateTargetFrequency);
     }
     
     /*
@@ -54,7 +59,7 @@ public class EnemyAI : MonoBehaviour
         if (_target != null)
         {
             var distanceToEnemy = Vector3.Distance(transform.position, _target.transform.position);
-            if (distanceToEnemy > followRange)
+            if (distanceToEnemy > _followRange)
             {
                 _target = null;
             }
@@ -81,7 +86,7 @@ public class EnemyAI : MonoBehaviour
         }
 
         // Check if we have a target and should shoot
-        if (nearestTarget != null && shortestDistance <= viewRange)
+        if (nearestTarget != null && shortestDistance <= _viewRange)
         {
             _target = nearestTarget.transform;
         }
@@ -99,23 +104,23 @@ public class EnemyAI : MonoBehaviour
         var curPosition = transform.position;
         var distanceToTarget = Vector3.Distance(curPosition, _target.transform.position);
         
-        if (minAttackRange < distanceToTarget && distanceToTarget < maxAttackRange)
+        if (_minAttackRange < distanceToTarget && distanceToTarget < _maxAttackRange)
         {
             MakeRangedAttack();
             return;
         }
         
         // Generates a distance part of the way to to target
-        if (usesRangedAttack && maxAttackRange > 0)
+        if (_usesRangedAttack && _maxAttackRange > 0)
         {
             float percentageOfDistance;
-            if (distanceToTarget > maxAttackRange)
+            if (distanceToTarget > _maxAttackRange)
             {
-                percentageOfDistance = 1 - maxAttackRange / distanceToTarget;
+                percentageOfDistance = 1 - _maxAttackRange / distanceToTarget;
             }
             else
             {
-                percentageOfDistance = 1 - minAttackRange / distanceToTarget;
+                percentageOfDistance = 1 - _minAttackRange / distanceToTarget;
             }
             var distanceVector = (_target.position - curPosition) * percentageOfDistance;
             targetPosition = curPosition + distanceVector;
@@ -141,16 +146,16 @@ public class EnemyAI : MonoBehaviour
         var origin = transform.position;
         
         Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(origin, viewRange);
+        Gizmos.DrawWireSphere(origin, _viewRange);
         Gizmos.color = Color.yellow;
         // Use viewRange is followRange is smaller
-        Gizmos.DrawWireSphere(origin, followRange > viewRange ? followRange : viewRange);
-        if (usesRangedAttack)
+        Gizmos.DrawWireSphere(origin, _followRange > _viewRange ? _followRange : _viewRange);
+        if (_usesRangedAttack)
         {
             Gizmos.color = Color.green;
-            Gizmos.DrawWireSphere(origin, maxAttackRange);
+            Gizmos.DrawWireSphere(origin, _maxAttackRange);
             Gizmos.color = Color.cyan;
-            Gizmos.DrawWireSphere(origin, minAttackRange);
+            Gizmos.DrawWireSphere(origin, _minAttackRange);
         }
     }
 }
