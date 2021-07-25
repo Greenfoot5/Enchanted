@@ -7,6 +7,7 @@ public class EnemyAI : MonoBehaviour
     public float updateTargetFrequency = 0.5f;
     public float viewRange = 3;
     public float followRange = 5;
+    public float pathUpdateFrequency = 0.1f;
     
     [Header("Attacks")]
     public float maxAttackRange;
@@ -23,7 +24,7 @@ public class EnemyAI : MonoBehaviour
     private NavMeshPath _path;
     
     // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
         // Setup our initial variables.
         _target = null;
@@ -88,7 +89,7 @@ public class EnemyAI : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
         if (_target is null)
         {
@@ -107,7 +108,15 @@ public class EnemyAI : MonoBehaviour
         // Generates a distance part of the way to to target
         if (usesRangedAttack && maxAttackRange > 0)
         {
-            var percentageOfDistance = 1 - maxAttackRange / distanceToTarget;
+            float percentageOfDistance;
+            if (distanceToTarget > maxAttackRange)
+            {
+                percentageOfDistance = 1 - maxAttackRange / distanceToTarget;
+            }
+            else
+            {
+                percentageOfDistance = 1 - minAttackRange / distanceToTarget;
+            }
             var distanceVector = (_target.position - curPosition) * percentageOfDistance;
             targetPosition = curPosition + distanceVector;
         }
