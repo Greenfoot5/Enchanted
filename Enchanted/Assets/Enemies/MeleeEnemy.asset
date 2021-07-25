@@ -15,7 +15,7 @@ MonoBehaviour:
   updateTargetFrequency: 0.5
   viewRange: 3
   followRange: 5
-  maxAttackRange: 2
-  minAttackRange: 1
+  maxAttackRange: 0
+  minAttackRange: 0
   usesRangedAttack: 0
   moveSpeed: 2

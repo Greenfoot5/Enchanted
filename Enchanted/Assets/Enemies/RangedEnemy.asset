@@ -17,5 +17,5 @@ MonoBehaviour:
   followRange: 5
   maxAttackRange: 2
   minAttackRange: 1
-  usesRangedAttack: 0
-  moveSpeed: 2
+  usesRangedAttack: 1
+  moveSpeed: 1
