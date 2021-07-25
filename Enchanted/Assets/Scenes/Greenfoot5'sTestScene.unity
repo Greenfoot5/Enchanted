@@ -1975,7 +1975,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: e4299bf26a09e9049839e1a1b75e562c, type: 3}
       propertyPath: m_TagString
-      value: Team2
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 100116, guid: e4299bf26a09e9049839e1a1b75e562c, type: 3}
+      propertyPath: m_TagString
+      value: PlayerRoot
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e4299bf26a09e9049839e1a1b75e562c, type: 3}
       propertyPath: m_RootOrder
@@ -4560,13 +4564,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   updateTargetFrequency: 0.5
-  viewRange: 3
+  viewRange: 4
   followRange: 5
-  maxAttackRange: 2
-  minAttackRange: 1
-  usesRangedAttack: 0
+  pathUpdateFrequency: 0.1
+  maxAttackRange: 3
+  minAttackRange: 1.5
+  usesRangedAttack: 1
   spell: {fileID: 0}
-  moveSpeed: 1
+  moveSpeed: 2
 --- !u!195 &1637666090
 NavMeshAgent:
   m_ObjectHideFlags: 0

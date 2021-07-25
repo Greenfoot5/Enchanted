@@ -13,7 +13,6 @@ public class EnemyAI : MonoBehaviour
     public float maxAttackRange;
     public float minAttackRange;
     public bool usesRangedAttack;
-    public SpellBase spell;
 
     [Header("Genes")]
     [Tooltip("Temporarily here to trial genes in an easy way")]
@@ -102,6 +101,7 @@ public class EnemyAI : MonoBehaviour
         
         if (minAttackRange < distanceToTarget && distanceToTarget < maxAttackRange)
         {
+            MakeRangedAttack();
             return;
         }
         
@@ -125,6 +125,11 @@ public class EnemyAI : MonoBehaviour
         _navMeshAgent.SetPath(_path);
     }
 
+    private void MakeRangedAttack()
+    {
+        // TODO - Actually make an attack at the target.
+    }
+
     /*
      * Displays the range it will spot a target in red.
      * Displays the range it will follow a target until in yellow.
@@ -133,17 +138,19 @@ public class EnemyAI : MonoBehaviour
      */
     private void OnDrawGizmosSelected()
     {
+        var origin = transform.position;
+        
         Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(transform.position, viewRange);
+        Gizmos.DrawWireSphere(origin, viewRange);
         Gizmos.color = Color.yellow;
         // Use viewRange is followRange is smaller
-        Gizmos.DrawWireSphere(transform.position, followRange > viewRange ? followRange : viewRange);
+        Gizmos.DrawWireSphere(origin, followRange > viewRange ? followRange : viewRange);
         if (usesRangedAttack)
         {
             Gizmos.color = Color.green;
-            Gizmos.DrawWireSphere(transform.position, maxAttackRange);
+            Gizmos.DrawWireSphere(origin, maxAttackRange);
             Gizmos.color = Color.cyan;
-            Gizmos.DrawWireSphere(transform.position, minAttackRange);
+            Gizmos.DrawWireSphere(origin, minAttackRange);
         }
     }
 }
