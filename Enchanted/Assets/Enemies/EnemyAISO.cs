@@ -15,5 +15,5 @@ public class EnemyAISO : ScriptableObject
     [Header("Genes")]
     [Tooltip("Temporarily here to trial genes in an easy way")]
     // Consider using other NavMeshAgent variables
-    public float moveSpeed;
+    public float moveSpeed = 1;
 }

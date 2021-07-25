@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe015308e49b844b78eda4fe85e97792, type: 3}
-  m_Name: BasicEnemy
+  m_Name: MeleeEnemy
   m_EditorClassIdentifier: 
   updateTargetFrequency: 0.5
   viewRange: 3
   followRange: 5
-  maxAttackRange: 0
-  minAttackRange: 0
+  maxAttackRange: 2
+  minAttackRange: 1
   usesRangedAttack: 0
-  moveSpeed: 0
+  moveSpeed: 2
