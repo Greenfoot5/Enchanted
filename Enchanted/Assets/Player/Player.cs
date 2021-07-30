@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Serialization;
 
 /// <summary>
 /// <para>The base of the player.</para>
@@ -7,7 +8,7 @@ using UnityEngine;
 public abstract class PlayerBase : EntityBase
 {
     // Class spells
-    [SerializeField] private LevelingSpellBase[] _spells;
+    [FormerlySerializedAs("_spells")] [SerializeField] private LevelingSpellBase[] spells;
 
     // Equipped spells
     private LevelingSpellBase _spell0;
@@ -22,8 +23,8 @@ public abstract class PlayerBase : EntityBase
     public LevelingSpellBase Spell3 => _spell3;
 
     // Public spell getters
-    public virtual LevelingSpellBase GetSpell(int index) => _spells[index];
-    public virtual SpellBase GetSpell(int index, int level) => _spells[index].levels[level];
+    public virtual LevelingSpellBase GetSpell(int index) => spells[index];
+    public virtual SpellBase GetSpell(int index, int level) => spells[index].levels[level];
 
     /// <summary>
     /// Function that quickly loads and assigns the 4 first spells.<br/>

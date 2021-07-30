@@ -40,7 +40,6 @@ public class BlueFire : SpellBase, IProjectileData, IEffectData
     {
         // Normalize the direction, so it has a constant speed no matter what.
         direction.Normalize();
-
         // Spawn the projectile prefab.
         GameObject projectile = Instantiate(prefab, caster.transform.position, Quaternion.Euler(direction));
 

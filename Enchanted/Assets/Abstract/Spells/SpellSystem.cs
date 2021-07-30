@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Serialization;
 
 /// <summary>
 /// The system controlling spells and assigning joysticks to them.
@@ -16,7 +17,8 @@ public class SpellSystem : MonoBehaviour
     private PlayerBase _player;
 
     // The player's camera local axis (for calculating the casting direction).
-    public Vector3 _forward, _right;
+    [FormerlySerializedAs("_forward")] public Vector3 forward;
+    [FormerlySerializedAs("_right")] public Vector3 right;
 
     void Start()
     {
@@ -26,8 +28,8 @@ public class SpellSystem : MonoBehaviour
 
         // Get the movement script and the camera local axis.
         PlayerMovement movement = gameObject.GetComponent<PlayerMovement>();
-        _forward = movement.Forward;
-        _right = movement.Right;
+        forward = movement.Forward;
+        right = movement.Right;
 
         // Assign the first spell of level 1.
         _spell1 = _player.Spell0.levels[0];
@@ -37,7 +39,7 @@ public class SpellSystem : MonoBehaviour
     }
 
     /// <summary>
-    /// <para>Function ran when the joystick is dragged out of the deadzone and aiming has begun.</para>
+    /// <para>Function ran when the joystick is dragged out of the dead zone and aiming has begun.</para>
     /// <b>Warning: unimplemented.</b>
     /// </summary>
     /// <param name="direction">The current aiming direction.</param>
@@ -47,7 +49,7 @@ public class SpellSystem : MonoBehaviour
     }
     
     /// <summary>
-    /// <para>Function ran when the joystick targetting is cancelled.</para>
+    /// <para>Function ran when the joystick targeting is cancelled.</para>
     /// <b>Warning: unimplemented.</b>
     /// </summary>
     public void CancelAim()
@@ -59,15 +61,15 @@ public class SpellSystem : MonoBehaviour
     /// <para>Function ran when the joystick is pressed or sent to cast a spell.</para>
     /// </summary>
     /// <param name="spell">The joystick's assigned spell.</param>
-    /// <param name="direction">The cast direction of the spell, can be null if tapped (auto targetting).<br/>
+    /// <param name="direction">The cast direction of the spell, can be null if tapped (auto targeting).<br/>
     /// <b>Not rotated to match camera</b></param>
     public void CastSpell(SpellBase spell, Vector2? direction)
     {
         // Default direction.
-        // TODO: Auto targetting.
+        // TODO: Auto targeting.
         var dir = direction.GetValueOrDefault(new Vector2(1, 0));
 
         // Cast the spell in the corrected direction.
-        spell.CastSpell(_player, _right * dir.x + _forward * dir.y);
+        spell.CastSpell(_player, right * dir.x + forward * dir.y);
     }
 }
