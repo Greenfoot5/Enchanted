@@ -554,8 +554,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a95788cec90ec4b07a1e363be53f0505, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallCount: 40
-  roomShape: {fileID: 11400000, guid: 5b5261da1e5c141708c71a83bdafede9, type: 2}
+  tileCount: 42
+  origin: {fileID: 0}
 --- !u!1 &1093862118
 GameObject:
   m_ObjectHideFlags: 0

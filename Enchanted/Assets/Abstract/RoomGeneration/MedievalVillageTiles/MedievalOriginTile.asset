@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ee236b2779db4e248c8ba8beef665ae, type: 3}
+  m_Name: MedievalOriginTile
+  m_EditorClassIdentifier: 
+  tile: {fileID: 919132149155446097, guid: 3ea98caa087194b21834af41213cae3e, type: 3}
+  forwardNeighbours:
+  - tileNode: {fileID: 11400000, guid: 8d907f8aa97364e74a39fa75fa37102d, type: 2}
+    weight: 0
+    rotation: 0
+  rightNeighbours:
+  - tileNode: {fileID: 0}
+    weight: 0
+    rotation: 0
+  backNeighbours: []
+  leftNeighbours:
+  - tileNode: {fileID: 0}
+    weight: 0
+    rotation: 0
+  themeName: Medieval
