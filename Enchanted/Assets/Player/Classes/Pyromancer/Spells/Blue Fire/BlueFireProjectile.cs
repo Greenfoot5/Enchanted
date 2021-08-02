@@ -11,6 +11,8 @@ public class BlueFireProjectile : SpellProjectileBase
     /// <param name="data">Spell data, such as balancing.</param>
     public void SetSpellData(BlueFire data) => _data = data;
 
+    public ParticleSystem ps;
+
     public BlueFireProjectile(Material mat)
     {
         // Material assignment (still fixing this buggy feature)
@@ -28,13 +30,32 @@ public class BlueFireProjectile : SpellProjectileBase
         effect.SetData(_data.OnTickDamage);
         entity.AddEffect(effect);
 
-        // Destroy the projectile.
-        Destroy(gameObject);
+        // Destroy the projectile
+        ps.Stop();
+        Destroy(gameObject, 2f);
     }
 
     protected override void OnCollideEnvironment(Collider other)
     {
+        ps.Stop();
         // Destroy the projectile.
-        Destroy(gameObject);
+        Destroy(gameObject, 2f);
+    }
+    
+    void Update()
+    {
+        // Track life left.
+        lifeTime -= Time.deltaTime;
+
+        // Destroy if life reaches 0.
+        if (lifeTime <= 0)
+        {
+            ps.Stop();
+            Destroy(gameObject, 2f);
+        }
+
+        // If still alive, move the projectile forward.
+        else
+            transform.Translate(speed * Time.deltaTime * direction);
     }
 }

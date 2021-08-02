@@ -36,9 +36,9 @@ public virtual void Initialize(EntityBase caster, IProjectileData data, Vector3 
 }
 
     /// <summary>
-    /// The function running and checking the lifetile of the projectile.
+    /// The function running and checking the lifetime of the projectile.
     /// </summary>
-    protected virtual void Update()
+    void Update()
     {
         // Track life left.
         lifeTime -= Time.deltaTime;
