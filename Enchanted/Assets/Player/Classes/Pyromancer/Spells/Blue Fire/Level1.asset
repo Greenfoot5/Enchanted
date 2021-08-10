@@ -13,12 +13,14 @@ MonoBehaviour:
   m_Name: Level1
   m_EditorClassIdentifier: 
   cooldown: 0
-  prefab: {fileID: 9017397818963473023, guid: 3c1d590d156531742913f276df6c50f3, type: 3}
+  onHitDamage: 0
+  onTickDamage: 0
+  amountOfTicks: 0
+  prefab: {fileID: 8555536929879314984, guid: 51a4b48f727f84429b86c52e3c442747, type: 3}
   speed: 10
   lifeTime: 1
   material: {fileID: 2100000, guid: 158cc40c15bf95b4ba0d901e32c51887, type: 2}
   canStack: 0
-  stacks: 0
   isBeneficial: 0
   tickType: 0
   tickSize: 0
