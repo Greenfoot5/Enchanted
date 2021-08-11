@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -13,13 +11,13 @@ public class SpellJoystick : Joystick
     /// <summary>
     /// <para>Event when the joystick is pressed or sent to cast a spell.</para>
     /// </summary>
-    /// <param name="_spell">The joystick's assigned spell.</param>
-    /// <param name="direction">The cast direction of the spell, can be null if tapped (auto targetting).<br/></param>
-    public delegate void OnCast(SpellBase _spell, Vector2? direction);
+    /// <param name="spell">The joystick's assigned spell.</param>
+    /// <param name="direction">The cast direction of the spell, can be null if tapped (auto targeting).<br/></param>
+    public delegate void OnCast(SpellBase spell, Vector2? direction, SpellJoystick joystick);
     public OnCast onCast;
 
     /// <summary>
-    /// <para>Event when the joystick is dragged out of the deadzone and aiming has begun.</para>
+    /// <para>Event when the joystick is dragged out of the dead zone and aiming has begun.</para>
     /// <b>Warning: unimplemented.</b>
     /// </summary>
     /// <param name="direction">The current aiming direction.</param>
@@ -27,7 +25,7 @@ public class SpellJoystick : Joystick
     public OnBeginAim onBeginAim;
 
     /// <summary>
-    /// <para>Event when the joystick targetting is cancelled.</para>
+    /// <para>Event when the joystick targeting is cancelled.</para>
     /// <b>Warning: unimplemented.</b>
     /// </summary>
     public delegate void OnStopAim();
@@ -37,8 +35,8 @@ public class SpellJoystick : Joystick
     protected float cancelRange = .1f;
 
     // State
-    public bool isHeld = false;
-    public bool targetting = false;
+    public bool isHeld;
+    public bool targeting;
 
     // Reversion
     private float _deadZoneReset;
@@ -49,8 +47,7 @@ public class SpellJoystick : Joystick
     private SpellBase _spell;
 
     // Cooldown
-    // UNIMPLEMENTED
-    private float _cooldownMax = 0;
+    private float _cooldownMax;
     private float _cooldownLeft;
 
     protected override void Start()
@@ -61,6 +58,21 @@ public class SpellJoystick : Joystick
         // Prepare for reversion of values.
         _deadZoneReset = DeadZone;
         _handle = transform.GetChild(1);
+    }
+    
+    /// <summary>
+    /// Called every frame, lowers the cooldown of the spell.
+    /// Enables the joystick once it reaches 0
+    /// </summary>
+    protected void Update()
+    {
+        if (!(_cooldownLeft > 0)) return;
+        
+        _cooldownLeft -= Time.deltaTime;
+        if (!(_cooldownLeft < 0)) return;
+        
+        HandleRange = 1f;
+        _handle.gameObject.GetComponent<Image>().color = new Color(1f, 1f, 1f);
     }
 
     public override void OnPointerDown(PointerEventData eventData)
@@ -102,7 +114,7 @@ public class SpellJoystick : Joystick
         background.GetComponent<Image>().color = new Color(1, 1, 1, .3f);
 
         // Update state.
-        targetting = true;
+        targeting = true;
 
         // Disable dead zone snapping.
         DeadZone = 0;
@@ -117,7 +129,7 @@ public class SpellJoystick : Joystick
         background.GetComponent<Image>().color = new Color(1, 1, 1, 0);
 
         // Update state.
-        targetting = false;
+        targeting = false;
 
         // Re-enable the dead zone snapping.
         DeadZone = _deadZoneReset;
@@ -131,11 +143,14 @@ public class SpellJoystick : Joystick
     /// </summary>
     public virtual void CastSpell()
     {
+        // Don't cast while on cooldown
+        if (_cooldownLeft > 0) return;
+        
         // TEMP Visual feedback (hide the ring).
         background.GetComponent<Image>().color = new Color(1, 1, 1, 0);
 
         // Update state.
-        targetting = true;
+        targeting = true;
 
         // Re-enable the dead zone snapping.
         DeadZone = _deadZoneReset;
@@ -144,28 +159,30 @@ public class SpellJoystick : Joystick
         _handle.gameObject.GetComponent<Image>().color = new Color(1, 1, 1);
 
         // Send event: cast the spell.
-        onCast(_spell, Direction);
+        onCast(_spell, Direction, this);
     }
 
     /// <summary>
     /// <para>Updates the cooldown of the joystick.</para>
-    /// <b>Warning: unimplemented.</b>
+    /// <b>Warning: Still allows players to use joystick, just not move it/cast while on cooldown.</b>
     /// </summary>
     /// <param name="cooldown">New cooldown.</param>
     public void SetCooldown(float cooldown)
     {
         _cooldownMax = cooldown;
         _cooldownLeft = cooldown;
+        HandleRange = 0f;
+        _handle.gameObject.GetComponent<Image>().color = new Color(0.5f, 0.5f, 0.5f);
     }
 
     protected override void HandleInput(float magnitude, Vector2 normalised, Vector2 radius, Camera cam)
     {
         // Begin aiming if wasn't before and above the dead zone.
-        if (!targetting && magnitude > DeadZone)
+        if (!targeting && magnitude > DeadZone)
             BeginAiming();
 
         // Tint the handle slightly red if in cancel range.
-        if (targetting && magnitude < cancelRange)
+        if (targeting && magnitude < cancelRange)
             _handle.gameObject.GetComponent<Image>().color = new Color(1, .9f, .9f);
         else
             _handle.gameObject.GetComponent<Image>().color = new Color(1, 1, 1);

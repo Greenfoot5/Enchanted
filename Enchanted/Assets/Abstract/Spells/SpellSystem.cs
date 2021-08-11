@@ -63,11 +63,15 @@ public class SpellSystem : MonoBehaviour
     /// <param name="spell">The joystick's assigned spell.</param>
     /// <param name="direction">The cast direction of the spell, can be null if tapped (auto targeting).<br/>
     /// <b>Not rotated to match camera</b></param>
-    public void CastSpell(SpellBase spell, Vector2? direction)
+    /// <param name="joystick">The joystick casting the spell</param>
+    public void CastSpell(SpellBase spell, Vector2? direction, SpellJoystick joystick)
     {
         // Default direction.
         // TODO: Auto targeting.
         var dir = direction.GetValueOrDefault(new Vector2(1, 0));
+        
+        // Set the cooldown
+        joystick.SetCooldown(spell.Cooldown);
 
         // Cast the spell in the corrected direction.
         spell.CastSpell(_player, right * dir.x + forward * dir.y);
