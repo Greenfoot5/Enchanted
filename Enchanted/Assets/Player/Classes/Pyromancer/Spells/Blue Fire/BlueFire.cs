@@ -13,7 +13,6 @@ public class BlueFire : SpellBase, IProjectileData, IEffectData
     [SerializeField] private GameObject prefab;
     [SerializeField] private float speed;
     [SerializeField] private float lifeTime;
-    [SerializeField] private Material material;
 
     [Header("Effect configuration")]
     [SerializeField] private bool canStack;
@@ -41,7 +40,7 @@ public class BlueFire : SpellBase, IProjectileData, IEffectData
         // Normalize the direction, so it has a constant speed no matter what.
         direction.Normalize();
         // Spawn the projectile prefab.
-        GameObject projectile = Instantiate(prefab, caster.transform.position + prefab.transform.position,
+        var projectile = Instantiate(prefab, caster.transform.position + prefab.transform.position,
             Quaternion.Euler(direction));
 
         // Get the script of the prefab and set it up.

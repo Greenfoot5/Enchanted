@@ -12,15 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b15c0d2927aaa9b42a3ba1cc2eed462e, type: 3}
   m_Name: Level1
   m_EditorClassIdentifier: 
-  cooldown: 0
-  onHitDamage: 0
-  onTickDamage: 0
-  amountOfTicks: 0
+  cooldown: 3
+  onHitDamage: 30
+  onTickDamage: 5
+  amountOfTicks: 4
   prefab: {fileID: 8555536929879314984, guid: 51a4b48f727f84429b86c52e3c442747, type: 3}
   speed: 10
   lifeTime: 1
   material: {fileID: 2100000, guid: 158cc40c15bf95b4ba0d901e32c51887, type: 2}
-  canStack: 0
+  canStack: 1
   isBeneficial: 0
-  tickType: 0
-  tickSize: 0
+  tickType: 1
+  tickSize: 1
