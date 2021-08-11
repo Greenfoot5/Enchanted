@@ -14,8 +14,8 @@ public class DamageNumber : MonoBehaviour
     /// </summary>
     void Start()
     {
-        Animator animator = GetComponent<Animator>();
-        AnimatorClipInfo[] clipInfo = animator.GetCurrentAnimatorClipInfo(0);
+        var animator = GetComponent<Animator>();
+        var clipInfo = animator.GetCurrentAnimatorClipInfo(0);
 
         Destroy(gameObject, clipInfo[0].clip.length);
     }
@@ -28,7 +28,7 @@ public class DamageNumber : MonoBehaviour
     public void SetData(float value, Vector3 worldPoint)
     {
         // Gets the text component and updates to contain the new value.
-        TMP_Text text = GetComponentInChildren<TMP_Text>();
+        var text = GetComponentInChildren<TMP_Text>();
         text.text = value.ToString();
 
         // Prepares to update the location in LateUpdate.
@@ -38,17 +38,16 @@ public class DamageNumber : MonoBehaviour
 
     private void LateUpdate()
     {
-        // If it needs to update its location
-        if (_newLoc != null)
-        {
-            // Then get the screen-space position.
-            Vector3 screenPos = Camera.main.WorldToScreenPoint(_newLoc.GetValueOrDefault());
+        // If it doesn't need to update its location
+        if (_newLoc == null) return;
+        
+        // Then get the screen-space position.
+        var screenPos = Camera.main.WorldToScreenPoint(_newLoc.GetValueOrDefault());
 
-            // Update it for the object.
-            transform.position = screenPos;
+        // Update it for the object.
+        transform.position = screenPos;
 
-            // And reset the field so it doesn't calculate again.
-            _newLoc = null;
-        }
+        // And reset the field so it doesn't calculate again.
+        _newLoc = null;
     }
 }
