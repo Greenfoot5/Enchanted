@@ -11,7 +11,7 @@ public abstract class SpellEffectBase
     protected IEffectData data;
     protected int stacks;
 
-    protected float _clock = 0;
+    protected float clock;
 
     // Effect casting information
     protected EntityBase sender;
@@ -48,19 +48,19 @@ public abstract class SpellEffectBase
             return;
 
         // Keep track of time passed.
-        _clock += Time.deltaTime;
+        clock += Time.deltaTime;
 
         // If time is below the tick size, then stop.
-        if (_clock < data.TickSize)
+        if (clock < data.TickSize)
             return;
 
         // If not, check how many did it tick, and run the tick code that many times. (Lag compensation)
-        int times = Mathf.FloorToInt(_clock / data.TickSize);
-        for (int n = 0; n < times; n++)
+        var times = Mathf.FloorToInt(clock / data.TickSize);
+        for (var n = 0; n < times; n++)
             OnTick();
 
         // Reset the clock with amount of ticks ran. (Lag compensation)
-        _clock -= times * data.TickSize;
+        clock -= times * data.TickSize;
     }
 
     /// <summary>

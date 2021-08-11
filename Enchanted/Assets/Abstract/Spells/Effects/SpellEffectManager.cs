@@ -8,7 +8,7 @@ using UnityEngine;
 public class SpellEffectManager : MonoBehaviour
 {
     // List of effects
-    private readonly List<SpellEffectBase> effects = new List<SpellEffectBase>();
+    private readonly List<SpellEffectBase> _effects = new List<SpellEffectBase>();
 
     /// <summary>
     /// Adds a spell effect to the manager.
@@ -16,7 +16,7 @@ public class SpellEffectManager : MonoBehaviour
     /// <param name="effect">The effect instance.</param>
     public void AddEffect(SpellEffectBase effect)
     {
-        effects.Add(effect);
+        _effects.Add(effect);
     }
 
     /// <summary>
@@ -25,29 +25,27 @@ public class SpellEffectManager : MonoBehaviour
     private void Update()
     {
         // To keep track of if there were any changes for stats recalculation.
-        bool effectsChanged = false;
+        var effectsChanged = false;
 
-        for (int i = 0; i < effects.Count; i++)
+        for (var i = 0; i < _effects.Count; i++)
         {
             // Loop through each effect in a MUTABLE list.
-            var effect = effects[i];
+            var effect = _effects[i];
 
             // Run the Update function.
             effect.Update();
 
             // If effect needs to be removed.
-            if (effect.NeedsRemoval)
-            {
-                // Then end and remove it.
-                effect.OnEnd();
-                effects.RemoveAt(i);
+            if (!effect.NeedsRemoval) continue;
+            // Then end and remove it.
+            effect.OnEnd();
+            _effects.RemoveAt(i);
 
-                // Offset the loop.
-                i--;
+            // Offset the loop.
+            i--;
 
-                // Mark the effects as changed for stats recalculation.
-                effectsChanged = true;
-            }
+            // Mark the effects as changed for stats recalculation.
+            effectsChanged = true;
         }
 
         // Run stats recalculation if so.
