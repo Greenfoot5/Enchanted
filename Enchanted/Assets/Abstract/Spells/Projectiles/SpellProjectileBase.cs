@@ -38,14 +38,14 @@ public virtual void Initialize(EntityBase caster, IProjectileData data, Vector3 
     /// <summary>
     /// The function running and checking the lifetime of the projectile.
     /// </summary>
-    void Update()
+    protected void Update()
     {
         // Track life left.
         lifeTime -= Time.deltaTime;
 
         // Destroy if life reaches 0.
         if (lifeTime <= 0)
-            Destroy(gameObject);
+            OnExpired();
 
         // If still alive, move the projectile forward.
         else
@@ -94,4 +94,9 @@ public virtual void Initialize(EntityBase caster, IProjectileData data, Vector3 
     /// <param name="other">The collider hit.</param>
     /// <param name="entity">The enemy entity.</param>
     protected virtual void OnCollideEnemyEntity(Collider other, EntityBase entity) { }
+
+    /// <summary>
+    /// Called when the projectile's lifetime hit's zero. Used to cleanup the projectile properly
+    /// </summary>
+    protected virtual void OnExpired() { }
 }

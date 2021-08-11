@@ -41,21 +41,14 @@ public class BlueFireProjectile : SpellProjectileBase
         // Destroy the projectile.
         Destroy(gameObject, 2f);
     }
-    
-    void Update()
+
+    /// <summary>
+    /// <para>Used to clean up the projectile when it's lifetime reached 0</para>
+    /// Stops the particles and destroys the object after the particles finish
+    /// </summary>
+    protected override void OnExpired()
     {
-        // Track life left.
-        lifeTime -= Time.deltaTime;
-
-        // Destroy if life reaches 0.
-        if (lifeTime <= 0)
-        {
-            ps.Stop();
-            Destroy(gameObject, 2f);
-        }
-
-        // If still alive, move the projectile forward.
-        else
-            transform.Translate(speed * Time.deltaTime * direction);
+        ps.Stop();
+        Destroy(gameObject, 2f);
     }
 }
