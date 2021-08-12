@@ -5,7 +5,6 @@ using UnityEngine;
 /// </summary>
 public class RoomGenerator : MonoBehaviour
 {
-    public int wallCount = 42;
     public RoomShape roomShape;
 
     void Awake()
@@ -13,8 +12,8 @@ public class RoomGenerator : MonoBehaviour
         GenerateRoom();
     }
 
-    public void GenerateRoom()
+    private void GenerateRoom()
     {
-        bool hasGeneratedRoom = roomShape.GenerateRoom(transform, wallCount);
+        bool hasGeneratedRoom = roomShape.GenerateRoom(transform);
     }
 }
