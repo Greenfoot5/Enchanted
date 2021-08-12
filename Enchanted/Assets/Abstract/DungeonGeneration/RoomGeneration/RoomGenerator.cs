@@ -14,6 +14,6 @@ public class RoomGenerator : MonoBehaviour
 
     private void GenerateRoom()
     {
-        bool hasGeneratedRoom = roomShape.GenerateRoom(transform);
+        var hasGeneratedRoom = roomShape.GenerateRoom(transform);
     }
 }

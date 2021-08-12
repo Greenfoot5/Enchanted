@@ -5,6 +5,8 @@ using UnityEngine;
 public class RoomTheme : ScriptableObject
 {
     [SerializeField]
+    public GameObject door;
+    [SerializeField]
     private WeightedPrefab[] walls;
     [SerializeField]
     private WeightedPrefab[] corners;
@@ -33,7 +35,10 @@ public class RoomTheme : ScriptableObject
         foreach (var t in corners)
         {
             if (choice < t.weight)
+            {
                 return t.prefab;
+            }
+
             choice -= t.weight;
         }
         

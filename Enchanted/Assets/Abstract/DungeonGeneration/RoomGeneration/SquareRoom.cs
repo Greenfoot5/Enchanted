@@ -21,9 +21,37 @@ public class SquareRoom : RoomShape
         floorParent.name = "Floors";
         var decorParent = Instantiate(spawner, parent.transform);
         decorParent.name = "Decorations";
-    
-        var doorPosition = Random.Range(2, wallsPerEdge);
-        var wall = Instantiate(roomTheme.GETWall(), spawnerTransform.position, spawnerTransform.rotation, wallParent.transform);
+        
+        // Decide where the door goes
+        var doorPosition = Random.Range(1, wallsPerEdge);
+        
+        // Spawn the first side
+        spawnerTransform.Translate(Vector3.back * doorPosition);
+        var item = Instantiate(roomTheme.GETCorner(), spawnerTransform.position,
+            spawnerTransform.rotation, wallParent.transform);
+        item.transform.Rotate(Vector3.up, 270f);
+        for (var i = 1; i < wallsPerEdge - 1; i++)
+        {
+            spawnerTransform.Translate(Vector3.forward);
+            Instantiate(i == doorPosition ? roomTheme.door : roomTheme.GETWall(), spawnerTransform.position,
+                spawnerTransform.rotation, wallParent.transform);
+        }
+
+        for (var side = 0; side < 3; side++)
+        {
+            spawnerTransform.Translate(Vector3.forward);
+            spawnerTransform.Rotate(Vector3.up, 90);
+            item = Instantiate(roomTheme.GETCorner(), spawnerTransform.position, spawnerTransform.rotation,
+                wallParent.transform);
+            item.transform.Rotate(Vector3.up, 270f);
+            for (var i = 1; i < wallsPerEdge - 1; i++)
+            {
+                spawnerTransform.Translate(Vector3.forward);
+                Instantiate(roomTheme.GETWall(), spawnerTransform.position, spawnerTransform.rotation,
+                    wallParent.transform);
+            }
+        }
+        
 
         return false;
     }
