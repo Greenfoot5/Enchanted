@@ -25,6 +25,10 @@ public class SquareRoom : RoomShape
         // Decide where the door goes
         var doorPosition = Random.Range(1, wallsPerEdge);
         
+        //
+        // Walls
+        //
+        
         // Spawn the first side
         spawnerTransform.Translate(Vector3.back * doorPosition);
         var item = Instantiate(roomTheme.GETCorner(), spawnerTransform.position,
@@ -52,6 +56,24 @@ public class SquareRoom : RoomShape
             }
         }
         
+        // Reset spawner transform
+        spawnerTransform.Translate(Vector3.forward);
+        spawnerTransform.Rotate(Vector3.up, 90);
+        
+        //
+        // Floor
+        //
+        for (var i = 0; i < wallsPerEdge; i++)
+        {
+            for (var j = 0; j < wallsPerEdge; j++)
+            {
+                Instantiate(roomTheme.GETFloor(), spawnerTransform.position, spawnerTransform.rotation,
+                    floorParent.transform);
+                spawnerTransform.Translate(Vector3.forward);
+            }
+            spawnerTransform.Translate(Vector3.back * wallsPerEdge);
+            spawnerTransform.Translate(Vector3.right);
+        }
 
         return false;
     }

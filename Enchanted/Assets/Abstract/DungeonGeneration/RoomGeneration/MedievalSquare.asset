@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: MedievalSquare
   m_EditorClassIdentifier: 
   wallsPerSide:
-    minValue: 0
-    maxValue: 0
+    minValue: 5
+    maxValue: 15
   roomTheme: {fileID: 11400000, guid: b1db493c6e5164e0f9be788d717f02d1, type: 2}
