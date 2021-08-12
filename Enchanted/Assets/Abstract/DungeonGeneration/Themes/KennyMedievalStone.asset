@@ -21,5 +21,27 @@ MonoBehaviour:
     weight: 1
   - prefab: {fileID: 919132149155446097, guid: 955daaa0f0fa04cf686892b94cfe0892, type: 3}
     weight: 1
-  corners: []
-  floors: []
+  - prefab: {fileID: 919132149155446097, guid: 1cbf56455d1344c51b56bd9ab4d6ac50, type: 3}
+    weight: 0.8
+  - prefab: {fileID: 919132149155446097, guid: 667bff1a380c5489e86eeeae089c62ff, type: 3}
+    weight: 0.8
+  - prefab: {fileID: 919132149155446097, guid: 2721e694b9fb64eb4ba75025fa5718a4, type: 3}
+    weight: 0.8
+  - prefab: {fileID: 919132149155446097, guid: 6eafd4a5f453545baa8646f1b172deba, type: 3}
+    weight: 0.8
+  - prefab: {fileID: 919132149155446097, guid: 51ed0c394033443afae2258d1ab1a9aa, type: 3}
+    weight: 0.8
+  corners:
+  - prefab: {fileID: 919132149155446097, guid: 52f891fce1f6041d183db4864e457ce2, type: 3}
+    weight: 6
+  - prefab: {fileID: 919132149155446097, guid: c77c89a80673f4ae6961bbb90682ae9c, type: 3}
+    weight: 1
+  - prefab: {fileID: 919132149155446097, guid: d9ebf890bf0704eda8bc275471f2329b, type: 3}
+    weight: 1
+  - prefab: {fileID: 919132149155446097, guid: 8c489af77145a48c78506874975af595, type: 3}
+    weight: 1
+  floors:
+  - prefab: {fileID: 919132149155446097, guid: 1de56d4a5561d4827a6b70846aee6510, type: 3}
+    weight: 1
+  - prefab: {fileID: 919132149155446097, guid: 6bf4c0fe0df07431cbdffecaebc22c8f, type: 3}
+    weight: 1
