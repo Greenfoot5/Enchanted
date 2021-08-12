@@ -3,7 +3,6 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "Generation/Rooms/Square")]
 public class SquareRoom : RoomShape
 {
-    [Range(2, Mathf.Infinity)]
     public RangedInt wallsPerSide;
     public RoomTheme roomTheme;
     public override bool GenerateRoom(Transform parent)
@@ -14,7 +13,7 @@ public class SquareRoom : RoomShape
         spawner.transform.SetPositionAndRotation(parent.position, parent.rotation);
         spawner.transform.parent = parent;
         var spawnerTransform = spawner.transform;
-        
+    
         // Use this to keep the Hierarchy clean
         var wallParent = Instantiate(spawner, parent.transform);
         wallParent.name = "Walls";
@@ -22,10 +21,10 @@ public class SquareRoom : RoomShape
         floorParent.name = "Floors";
         var decorParent = Instantiate(spawner, parent.transform);
         decorParent.name = "Decorations";
-        
+    
         var doorPosition = Random.Range(2, wallsPerEdge);
+        var wall = Instantiate(roomTheme.GETWall(), spawnerTransform.position, spawnerTransform.rotation, wallParent.transform);
 
-        
         return false;
     }
 }
