@@ -12,6 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a470fe4704bb9436386f1c2a5ec51b83, type: 3}
   m_Name: MedievalSquare
   m_EditorClassIdentifier: 
+  extraDoors:
+    minValue: 1
+    maxValue: 2
   wallsPerSide:
     minValue: 5
     maxValue: 15

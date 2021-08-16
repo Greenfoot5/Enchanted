@@ -5,6 +5,7 @@ using UnityEngine;
 /// </summary>
 public abstract class RoomShape : ScriptableObject
 {
+    public RangedInt extraDoors;
     /// <summary>
     /// Generates the rooms using the selected prefabs.
     /// </summary>

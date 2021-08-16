@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 [CreateAssetMenu(menuName = "Generation/Rooms/Square")]
@@ -22,32 +24,47 @@ public class SquareRoom : RoomShape
         var decorParent = Instantiate(spawner, parent.transform);
         decorParent.name = "Decorations";
         
-        // Decide where the door goes
-        var doorPosition = Random.Range(1, wallsPerEdge);
+        //
+        // Door positions
+        //
         
+        // Decide where the entry door goes
+        var entryPosition = Random.Range(1, wallsPerEdge);
+        var doorAmount = Random.Range(extraDoors.minValue, extraDoors.maxValue);
+        var validPositions = Enumerable.Range(0, (wallsPerEdge - 2) * 4).ToList();
+        var doorPositions = new int[doorAmount];
+        while (validPositions.Any() || doorPositions[doorAmount - 1] != 0)
+        {
+            
+        }
+
         //
         // Walls
         //
         
         // Spawn the first side
-        spawnerTransform.Translate(Vector3.back * doorPosition);
-        var item = Instantiate(roomTheme.GETCorner(), spawnerTransform.position,
+        spawnerTransform.Translate(Vector3.back * entryPosition);
+        var corner = Instantiate(roomTheme.GETCorner(), spawnerTransform.position,
             spawnerTransform.rotation, wallParent.transform);
-        item.transform.Rotate(Vector3.up, 270f);
+        corner.transform.Rotate(Vector3.up, 270f);
+        // Spawn the walls
         for (var i = 1; i < wallsPerEdge - 1; i++)
         {
             spawnerTransform.Translate(Vector3.forward);
-            Instantiate(i == doorPosition ? roomTheme.door : roomTheme.GETWall(), spawnerTransform.position,
+            Instantiate(i == entryPosition ? roomTheme.door : roomTheme.GETWall(), spawnerTransform.position,
                 spawnerTransform.rotation, wallParent.transform);
         }
-
+        
+        // Other 3 sides
         for (var side = 0; side < 3; side++)
         {
+            // Add the corner
             spawnerTransform.Translate(Vector3.forward);
             spawnerTransform.Rotate(Vector3.up, 90);
-            item = Instantiate(roomTheme.GETCorner(), spawnerTransform.position, spawnerTransform.rotation,
+            corner = Instantiate(roomTheme.GETCorner(), spawnerTransform.position, spawnerTransform.rotation,
                 wallParent.transform);
-            item.transform.Rotate(Vector3.up, 270f);
+            corner.transform.Rotate(Vector3.up, 270f);
+            // Add all the walls
             for (var i = 1; i < wallsPerEdge - 1; i++)
             {
                 spawnerTransform.Translate(Vector3.forward);
