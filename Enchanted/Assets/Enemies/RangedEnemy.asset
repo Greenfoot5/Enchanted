@@ -15,7 +15,14 @@ MonoBehaviour:
   updateTargetFrequency: 0.5
   viewRange: 3
   followRange: 5
-  maxAttackRange: 2
-  minAttackRange: 1
+  attackRange:
+    minValue: 0
+    maxValue: 0
   usesRangedAttack: 1
-  moveSpeed: 1
+  attackSpell: {fileID: 0}
+  moveSpeed:
+    minValue: 0
+    maxValue: 0
+  attackSpeed:
+    minValue: 0
+    maxValue: 0

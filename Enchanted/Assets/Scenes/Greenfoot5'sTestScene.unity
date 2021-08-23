@@ -3474,7 +3474,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ef65604c086bbf4ba43c364f45b8c3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _maxHealth: 0
+  _maxHealth: 500
   spells:
   - {fileID: 11400000, guid: 5386915d6b43ab944af3d7d028a63fd9, type: 2}
   - {fileID: 11400000, guid: 5386915d6b43ab944af3d7d028a63fd9, type: 2}
@@ -4281,7 +4281,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb34047b8a25e474bb71aeefc938f808, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _maxHealth: 500
+  _maxHealth: 100
 --- !u!114 &1637666089
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4294,7 +4294,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6c0f7864124243b6a2f6755c63a93d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  so: {fileID: 11400000, guid: ae534b69366c84f5fbfaadd088b99cd7, type: 2}
+  so: {fileID: 11400000, guid: 5b277a75c90fd43759ccf3fdae03ce22, type: 2}
 --- !u!195 &1637666090
 NavMeshAgent:
   m_ObjectHideFlags: 0

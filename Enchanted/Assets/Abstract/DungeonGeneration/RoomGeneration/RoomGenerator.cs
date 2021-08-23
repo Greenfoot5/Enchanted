@@ -6,6 +6,7 @@ using UnityEngine;
 public class RoomGenerator : MonoBehaviour
 {
     public RoomShape roomShape;
+    public GameObject room;
 
     void Awake()
     {

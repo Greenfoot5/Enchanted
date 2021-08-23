@@ -103,16 +103,29 @@ public class SquareRoom : RoomShape
         
         // Setup the base for door decisions
         var doorAmount = random.Next(extraDoors.minValue, extraDoors.maxValue);
-        var validPositions = Enumerable.Range(0, (wallsPerEdge - 2) * 4).ToList();
+        var validPositions = Enumerable.Range(1, wallsPerEdge * 4 - 1).ToList();
+        
+        // Remove corners and walls
+        for (var i = 0; i < 4; i++)
+        {
+            validPositions.Remove(i * wallsPerEdge);
+            validPositions.Remove(i * wallsPerEdge - 1);
+        }
         var doorPositions = new int[doorAmount + 1];
         // Set the entry position
-        doorPositions[0] = Random.Range(1, wallsPerEdge);
+        doorPositions[0] = Random.Range(1, wallsPerEdge - 1);
+        validPositions.Remove(doorPositions[0]);
+        validPositions.Remove(doorPositions[0] - 1);
+        validPositions.Remove(doorPositions[0] + 1);
         // Add the door positions
         var index = 1;
         while (validPositions.Any() && index < doorAmount)
         {
-            var doorPosition = Random.Range(0, validPositions.Count);
+            var doorPosition = validPositions[Random.Range(0, validPositions.Count)];
             doorPositions[index] = doorPosition;
+            validPositions.Remove(doorPosition);
+            validPositions.Remove(doorPosition - 1);
+            validPositions.Remove(doorPosition + 1);
             index++;
         }
 
@@ -121,18 +134,19 @@ public class SquareRoom : RoomShape
         //
         _spawnerTransform.Translate(Vector3.back * doorPositions[0]);
 
-        for (var i = 1; i < 5; i++)
+        for (var i = 0; i < 4; i++)
         {
             // Add the corner
             var corner = Instantiate(roomTheme.GETCorner(), _spawnerTransform.position,
                 _spawnerTransform.rotation, _wallParent.transform);
             corner.transform.Rotate(Vector3.up, 270f);
-            cornerPos[i - 1] = corner.transform.position;
+            cornerPos[i] = corner.transform.position;
             // Add all the walls
             for (var j = 1; j < wallsPerEdge - 1; j++)
             {
+                Debug.Log(i * wallsPerEdge + j);
                 _spawnerTransform.Translate(Vector3.forward);
-                Instantiate(doorPositions.Contains(i * j) ? roomTheme.door : roomTheme.GETWall(),
+                Instantiate(doorPositions.Contains(i * wallsPerEdge + j) ? roomTheme.door : roomTheme.GETWall(),
                     _spawnerTransform.position,
                     _spawnerTransform.rotation, _wallParent.transform);
             }
