@@ -25,6 +25,7 @@ public abstract class EntityBase : MonoBehaviour
     /// </summary>
     public virtual void Start()
     {
+        _health = _maxHealth;
         _spellEffectManager = gameObject.AddComponent<SpellEffectManager>();
         _modelRenderer = GetComponentInChildren<Renderer>();
     }
@@ -99,6 +100,12 @@ public abstract class EntityBase : MonoBehaviour
         // Shows the damage number of the damager player for themselves.
         if (this is PlayerBase)
             DamageFeedback(amount);
+
+        if (_health <= 0)
+        {
+            // TODO - Clean up after kill
+            Destroy(gameObject);
+        }
     }
 
     /// <summary>
