@@ -13,16 +13,16 @@ MonoBehaviour:
   m_Name: RangedEnemy
   m_EditorClassIdentifier: 
   updateTargetFrequency: 0.5
-  viewRange: 3
-  followRange: 5
+  viewRange: 5
+  followRange: 7
   attackRange:
-    minValue: 0
-    maxValue: 0
+    minValue: 1
+    maxValue: 4
   usesRangedAttack: 1
-  attackSpell: {fileID: 0}
+  attackSpell: {fileID: 11400000, guid: 0247fff33916acb478c728199b6418b3, type: 2}
   moveSpeed:
-    minValue: 0
-    maxValue: 0
+    minValue: 0.5
+    maxValue: 1.5
   attackSpeed:
-    minValue: 0
-    maxValue: 0
+    minValue: 3
+    maxValue: 4
