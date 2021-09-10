@@ -221,8 +221,8 @@ ParticleSystem:
     startColor:
       serializedVersion: 2
       minMaxState: 2
-      minColor: {r: 0.21176471, g: 0.03529412, b: 0.42745098, a: 1}
-      maxColor: {r: 0.21568628, g: 0.8352941, b: 0.8392157, a: 1}
+      minColor: {r: 0.24705882, g: 0.050980393, b: 0.07058824, a: 1}
+      maxColor: {r: 0.654902, g: 0.11372549, b: 0.19215687, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -865,7 +865,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 75
+      scalar: 100
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -4828,7 +4828,7 @@ GameObject:
   - component: {fileID: -4257169505723653711}
   - component: {fileID: 4410673414010074915}
   m_Layer: 0
-  m_Name: Fireball
+  m_Name: EnemyFireball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

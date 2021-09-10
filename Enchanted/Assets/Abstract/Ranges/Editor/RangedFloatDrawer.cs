@@ -6,7 +6,8 @@ using UnityEditor;
 /// Displays the RangedFloat in the editor in a way easy to understand.
 /// </summary>
 [CustomPropertyDrawer(typeof(RangedFloat))]
-public class RangedFloatDrawer : PropertyDrawer {
+public class RangedFloatDrawer : PropertyDrawer
+{
     /// <summary>
     /// Called for rendering and handling the GUI events for RangedFLoat
     /// </summary>

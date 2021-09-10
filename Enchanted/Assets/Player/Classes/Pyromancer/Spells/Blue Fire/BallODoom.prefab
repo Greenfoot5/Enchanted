@@ -168,8 +168,8 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 2.5
-      minScalar: 2
+      scalar: 1.5
+      minScalar: 0.5
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -221,8 +221,8 @@ ParticleSystem:
     startColor:
       serializedVersion: 2
       minMaxState: 2
-      minColor: {r: 0.21176471, g: 0.03529412, b: 0.42745098, a: 1}
-      maxColor: {r: 0.21568628, g: 0.8352941, b: 0.8392157, a: 1}
+      minColor: {r: 0, g: 0, b: 0, a: 1}
+      maxColor: {r: 0.72156864, g: 0.18039216, b: 0.12156863, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -284,8 +284,8 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 0.4
-      minScalar: 0.2
+      scalar: 1.5
+      minScalar: 0.5
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -659,7 +659,7 @@ ParticleSystem:
   ShapeModule:
     serializedVersion: 6
     enabled: 1
-    type: 4
+    type: 0
     angle: 10
     length: 5
     boxThickness: {x: 0, y: 0, z: 0}
@@ -865,7 +865,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 75
+      scalar: 100
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -4770,7 +4770,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 620addf73db5d714086bb1612fb2a5b4, type: 2}
+  - {fileID: 2100000, guid: 1ea8595000c813e4587174494bdde333, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4828,7 +4828,7 @@ GameObject:
   - component: {fileID: -4257169505723653711}
   - component: {fileID: 4410673414010074915}
   m_Layer: 0
-  m_Name: Fireball
+  m_Name: BallODoom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4862,7 +4862,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   caster: {fileID: 0}
-  speed: 0
+  speed: 1
   lifeTime: 0
   ps: {fileID: 3846821955238660933}
 --- !u!135 &4410673414010074915
