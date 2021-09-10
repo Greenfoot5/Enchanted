@@ -12,6 +12,7 @@ public class BlueFireProjectile : SpellProjectileBase
     public void SetSpellData(BlueFire data) => _data = data;
 
     public ParticleSystem ps;
+    public GameObject hitEffect;
 
     public BlueFireProjectile(Material mat)
     {
@@ -29,15 +30,24 @@ public class BlueFireProjectile : SpellProjectileBase
         effect.Initialize(caster, _data, entity);
         effect.SetData(_data.OnTickDamage);
         entity.AddEffect(effect);
-
+        
+        // TODO - Stop the projectile from hitting later objects
         // Destroy the projectile
         ps.Stop();
+        if (hitEffect != null)
+        {
+            Instantiate(hitEffect, transform.position, transform.rotation);
+        }
         Destroy(gameObject, 2f);
     }
 
     protected override void OnCollideEnvironment(Collider other)
     {
         ps.Stop();
+        if (hitEffect != null)
+        {
+            Instantiate(hitEffect, transform.position, transform.rotation);
+        }
         // Destroy the projectile.
         Destroy(gameObject, 2f);
     }
